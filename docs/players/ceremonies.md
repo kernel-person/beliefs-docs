@@ -18,8 +18,17 @@ Merely standing nearby does not join a ceremony.
 | Offer | Hold the requested item and choose **Offer item**. It is reserved until completion. |
 | Consume | Close the screen and eat or drink the requested item normally. |
 | Bless | Choose **Bless**; follow the shown item and clergy requirements. Blessing and forgiveness use the hosting faith's holy water. |
+| Stay underwater | Each joined recipient stays fully underwater for the shown continuous time. The leader stays nearby. |
 
-Action amounts are group totals.
+Prayer, offering, consumption and blessing amounts are group totals. **Stay underwater** shows seconds for each recipient.
+
+## Baptism
+
+When your faith offers **Baptism**, a priest starts it beside water. Join through **Ceremonies → Nearby / active → Join · Baptism**; standing in the water alone does not join.
+
+Each recipient stays fully underwater for five continuous seconds by default. Your shimmering progress bar tracks your own hold; surfacing resets unfinished progress. The priest can stay beside the water. After your hold completes, remain nearby until everyone finishes. New participants cannot join after an underwater step is completed.
+
+The faith can change the required time. Baptism records a service under normal teaching rules and does not change your faith membership.
 
 ## Fasting and community gatherings
 
