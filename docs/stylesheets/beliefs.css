@@ -1,0 +1,79 @@
+:root {
+  --beliefs-brass: #c7ad73;
+  --beliefs-gold: #e1c78d;
+  --beliefs-brown: #2c241b;
+  --beliefs-bg: #191714;
+  --beliefs-panel: #24201b;
+  --beliefs-border: #4d4231;
+  --beliefs-text: #eee9df;
+  --beliefs-muted: #bab3a7;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #2c241b;
+  --md-primary-fg-color--dark: #1c1915;
+  --md-accent-fg-color: #e1c78d;
+  --md-default-bg-color: var(--beliefs-bg);
+  --md-default-fg-color: var(--beliefs-text);
+  --md-default-fg-color--light: var(--beliefs-muted);
+  --md-default-fg-color--lighter: #8e8476;
+  --md-typeset-a-color: var(--beliefs-gold);
+  --md-code-bg-color: #29251f;
+  --md-code-fg-color: #ece0c7;
+  --md-footer-bg-color: #201b16;
+  --md-footer-bg-color--dark: #151310;
+}
+body { background: var(--beliefs-bg); }
+.md-grid { max-width: 78rem; }
+.md-header { box-shadow: 0 1px 0 #65523755; }
+.md-header__button.md-logo img { width: 1.6rem; height: 1.6rem; }
+.md-typeset { font-size: .82rem; line-height: 1.65; }
+.md-typeset h1 { color: var(--beliefs-text); font-weight: 500; letter-spacing: -.025em; }
+.md-typeset h2 { color: var(--beliefs-brass); font-weight: 500; margin-top: 1.6em; }
+.md-typeset h3 { color: var(--beliefs-text); font-weight: 500; }
+.md-typeset a { text-underline-offset: .17em; }
+.md-typeset a:hover { color: #f2ddb0; }
+.md-typeset code { border: 1px solid #71604433; border-radius: 3px; }
+.md-typeset pre code { border: 0; }
+.md-typeset .md-button { border-radius: 5px; border: 1px solid var(--beliefs-border); font-size: .78rem; padding: .65em 1.2em; margin: .15em .3em .15em 0; font-weight: 500; color: var(--beliefs-text); }
+.md-typeset .md-button--primary { background: var(--beliefs-brass); border-color: var(--beliefs-brass); color: #211b12; }
+.md-typeset .md-button:hover { background: var(--beliefs-gold); border-color: var(--beliefs-gold); color: #211b12; }
+.beliefs-hero { padding: 1.6rem 1.8rem; margin-bottom: 1.7rem; border: 1px solid var(--beliefs-border); border-radius: 10px; background: radial-gradient(ellipse at 90% 0, #73532735, transparent 65%), linear-gradient(135deg, #30271d, #211e19); }
+.beliefs-hero h1 { font-size: clamp(1.75rem, 3.8vw, 2.65rem); line-height: 1.16; max-width: 16em; margin: .65rem 0 .8rem; }
+.beliefs-hero > p { color: #d5cfc2; max-width: 34em; }
+.eyebrow { color: var(--beliefs-brass); text-transform: uppercase; letter-spacing: .13em; font-size: .64rem; }
+.symbol-ribbon { display: flex; gap: .65rem; align-items: center; margin-top: 1.55rem; flex-wrap: wrap; }
+.symbol-ribbon img { image-rendering: pixelated; width: 2rem; height: 2rem; background: #191612; padding: .25rem; border: 1px solid var(--beliefs-border); border-radius: 4px; }
+.md-typeset .quiet { color: var(--beliefs-muted); font-size: .72rem; margin: .5rem 0 0; }
+.guide-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; }
+.guide-card { padding: 1rem 1.1rem; border: 1px solid var(--beliefs-border); border-radius: 7px; background: var(--beliefs-panel); }
+.md-typeset .guide-card h3 { margin: 0 0 .35rem; color: var(--beliefs-brass); }
+.md-typeset .guide-card p { margin: .3rem 0 .6rem; color: var(--beliefs-muted); }
+.md-typeset .guide-card ul { padding-left: 1em; margin-bottom: 0; }
+.md-typeset .guide-card li { margin-bottom: .25em; }
+.release-note { border-top: 1px solid var(--beliefs-border); padding-top: .8rem; color: var(--beliefs-muted); font-size: .72rem; }
+.md-typeset .admonition, .md-typeset details { border-color: #95805b; background: #2b251d; box-shadow: none; }
+.md-typeset .admonition-title, .md-typeset summary { background: #73592d26; }
+.md-typeset .admonition-title:before, .md-typeset summary:before { background-color: var(--beliefs-brass); }
+.md-typeset details.tip, .md-typeset details.note, .md-typeset details.warning, .md-typeset details.info { border-color: #95805b; background: #2b251d; }
+.md-typeset details.tip > summary, .md-typeset details.note > summary, .md-typeset details.warning > summary, .md-typeset details.info > summary { background: #73592d26; }
+.md-typeset details.tip > summary::before, .md-typeset details.note > summary::before, .md-typeset details.warning > summary::before,
+.md-typeset details.tip > summary::after, .md-typeset details.note > summary::after, .md-typeset details.warning > summary::after,
+.md-typeset details.info > summary::before, .md-typeset details.info > summary::after { background-color: var(--beliefs-brass); }
+.md-typeset table:not([class]) { border-color: var(--beliefs-border); font-size: .72rem; }
+.md-typeset table:not([class]) th { background: #332b20; color: var(--beliefs-gold); }
+.md-typeset table:not([class]) td { border-color: #4d423177; }
+.md-typeset img { max-width: 100%; }
+.symbol-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(8.2rem, 1fr)); gap: .65rem; margin: 1rem 0; }
+.symbol-card { padding: .8rem .55rem; background: var(--beliefs-panel); border: 1px solid var(--beliefs-border); border-radius: 6px; text-align: center; }
+.symbol-card img { display: block; margin: 0 auto .5rem; width: 3rem; height: 3rem; image-rendering: pixelated; }
+.symbol-card span { display: block; color: var(--beliefs-text); font-size: .76rem; }
+.symbol-card code { display: block; overflow-wrap: anywhere; margin-top: .3rem; font-size: .58rem; color: var(--beliefs-muted); }
+.md-typeset .recipe-figure { display: block; width: 100%; max-width: 34rem; }
+@media (max-width: 600px) {
+  .beliefs-hero { padding: 1.1rem; }
+  .guide-grid { grid-template-columns: 1fr; }
+  .md-typeset { font-size: .8rem; }
+  .symbol-ribbon { gap: .4rem; }
+  .md-typeset table:not([class]) { font-size: .68rem; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; } }

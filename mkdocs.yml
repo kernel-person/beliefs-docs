@@ -1,0 +1,76 @@
+site_name: Beliefs
+site_description: Player guides and a server-owner manual for Beliefs, the Minecraft faith and family plugin.
+site_url: https://kernel-person.github.io/beliefs-docs/
+repo_url: https://github.com/kernel-person/beliefs-docs
+repo_name: kernel-person/beliefs-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  font: false
+  logo: images/beliefs-mark.svg
+  favicon: images/beliefs-mark.svg
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+extra_css:
+  - stylesheets/beliefs.css
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+validation:
+  links:
+    not_found: warn
+    anchors: warn
+    unrecognized_links: warn
+nav:
+  - Home: index.md
+  - Start here: players/getting-started.md
+  - Playing:
+      - Prayer: players/prayer.md
+      - Food rules: players/food.md
+      - Ceremonies & holy days: players/ceremonies.md
+      - Marriage: players/marriage.md
+      - Adoption: players/adoption.md
+      - Family tree: players/family-tree.md
+      - Your life: players/your-life.md
+  - Leading a faith:
+      - Create a faith: leaders/create-faith.md
+      - Teachings & food: leaders/teachings-and-food.md
+      - Design ceremonies: leaders/ceremonies.md
+      - People & places: leaders/people-and-places.md
+      - Symbols & scripture: leaders/symbols-and-scripture.md
+  - Server owners:
+      - Installation: server/installation.md
+      - Configure your server: server/configuration.md
+      - Updates & backups: server/updating.md
+      - Heirloom integration: server/heirloom.md
+      - Troubleshooting: server/troubleshooting.md
+  - Reference:
+      - Commands: reference/commands.md
+      - Permissions: reference/permissions.md
+      - Configuration defaults: reference/configuration.md
+      - Symbol gallery: reference/symbols.md
+      - Credits: reference/credits.md
+
+copyright: Beliefs · An independent Minecraft plugin. Not an official Minecraft product.

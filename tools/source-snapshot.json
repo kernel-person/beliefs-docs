@@ -1,0 +1,216 @@
+{
+  "plugin_version": "0.1.0-SNAPSHOT",
+  "sources": {
+    "config.yml": "93a43b85241396897d77a18342e14f316d95bc25a08776e14b5b9f9243c9e3dd",
+    "plugin.yml": "6743ebab4fce0dfd5f8ccf0eb637f16c0977c1a1dbfc6041f5f694767fd4e2a9",
+    "symbols.yml": "b41f05e8a0bb8a73a3b12779546365e96f85eddd82a17e1cf1ae225fcf44df11"
+  },
+  "configuration": {
+    "examples": {
+      "enabled": true
+    },
+    "agnostic": {
+      "head-texture": "http://textures.minecraft.net/texture/910e92e0258d70ec132b69664f5f7f292bfec7e0f727685a1d7970d12249"
+    },
+    "marriage-ring": {
+      "recipe": {
+        "enabled": true,
+        "shape": [
+          "GDG",
+          "G G",
+          "GGG"
+        ],
+        "ingredients": {
+          "G": "GOLD_INGOT",
+          "D": "DIAMOND"
+        }
+      }
+    },
+    "sacred-items": {
+      "cooldown-seconds": 60
+    },
+    "limits": {
+      "marriage-members": 8,
+      "teaching-weight": 20,
+      "ceremony-distance": 32,
+      "consent-seconds": 300
+    },
+    "judgment": {
+      "blessing-threshold": 20,
+      "penance-threshold": -20,
+      "nether-threshold": -100,
+      "serious-transgressions": 5,
+      "blessing-seconds": 120,
+      "penance-seconds": 60
+    },
+    "afterlife": {
+      "nether": {
+        "world": "",
+        "x": 0.5,
+        "y": 64,
+        "z": 0.5,
+        "yaw": 0,
+        "pitch": 0
+      }
+    },
+    "community": {
+      "timezone": "Europe/London"
+    },
+    "worship": {
+      "allowed-outcomes": [
+        "PRAYER",
+        "SERVICE",
+        "BLESSING",
+        "FORGIVE",
+        "HOLY_WATER",
+        "RAIN",
+        "CLEAR",
+        "THUNDER",
+        "CALM"
+      ],
+      "max-temple-radius": 64,
+      "max-session-seconds": 3600,
+      "minimum-ritual-seconds": 5,
+      "minimum-weather-participants": 3,
+      "weather-cooldown-seconds": 1800,
+      "allowed-weather-worlds": [],
+      "fasting-cooldown-seconds": 1800,
+      "fast-max-minutes": 1440,
+      "blessing-seconds": 120,
+      "holy-water-amount": 1,
+      "prayer": {
+        "sneak-hold-seconds": 3
+      },
+      "directional-prayer": {
+        "angle-degrees": 20,
+        "hold-seconds": 10,
+        "bonus-cooldown-seconds": 300,
+        "effect": "SPEED",
+        "effect-seconds": 30
+      }
+    }
+  },
+  "permissions": {
+    "beliefs.use": {
+      "default": true
+    },
+    "beliefs.create": {
+      "default": true
+    },
+    "beliefs.admin": {
+      "default": "op"
+    }
+  },
+  "symbols": [
+    {
+      "id": "01_latin_cross",
+      "name": "Latin cross",
+      "texture_url": "https://textures.minecraft.net/texture/be5ecee030ecb724a03d72ec4c039350564618e7f580a69817b7b940a05c6abb"
+    },
+    {
+      "id": "02_orthodox_cross",
+      "name": "Orthodox cross",
+      "texture_url": "https://textures.minecraft.net/texture/81f804d8fe30c787a38c40ec4aa134166cec2ef9ec0471c36fe28a3bf60f1fd9"
+    },
+    {
+      "id": "03_celtic_cross",
+      "name": "Celtic cross",
+      "texture_url": "https://textures.minecraft.net/texture/5e4751127c6d2ca7aecc7ddef4442c42c0f63b9a4838c00795750ab53b92200e"
+    },
+    {
+      "id": "04_star_of_david",
+      "name": "Star of David",
+      "texture_url": "https://textures.minecraft.net/texture/eed9c01bfe9b4557d909738fc2ae1f4e5e547f74e19e0a75162ead059756e413"
+    },
+    {
+      "id": "05_crescent_and_star",
+      "name": "Crescent & star",
+      "texture_url": "https://textures.minecraft.net/texture/3eda08b02f8ff870335ee5e16e3cdbd9076056bf132752a9e3800d0363da8996"
+    },
+    {
+      "id": "06_dharma_wheel",
+      "name": "Dharma wheel",
+      "texture_url": "https://textures.minecraft.net/texture/aaa9b59e99f407d0f144234fa47494dca00e1d165f6a2bff60a99770872a5d1c"
+    },
+    {
+      "id": "07_om",
+      "name": "Om / Aum",
+      "texture_url": "https://textures.minecraft.net/texture/fab3cfcb6fe8e873650214f659bd08c3c273def36e719d2757d0f48b3d0049d3"
+    },
+    {
+      "id": "08_khanda",
+      "name": "Khanda",
+      "texture_url": "https://textures.minecraft.net/texture/5df0b597eeb81691226060a3c6436c55edd0656492fce47bdbb44d4606a6e4bc"
+    },
+    {
+      "id": "09_torii",
+      "name": "Torii",
+      "texture_url": "https://textures.minecraft.net/texture/bcbcee494dcc66078c58db92629430578f8a1ffeb0bb1631f4be1a6bb58c091"
+    },
+    {
+      "id": "10_yin_yang",
+      "name": "Yin–yang",
+      "texture_url": "https://textures.minecraft.net/texture/e5895e9ae9b8f2299a0a6ff147adae8efda596d1458fe2236281d2e57bff2c81"
+    },
+    {
+      "id": "11_agnostic",
+      "name": "Agnostic",
+      "texture_url": "https://textures.minecraft.net/texture/c5a63b7f4edd66aabfe5e6ecac1046fe9cd379270a06340c59dc888bf143d791"
+    },
+    {
+      "id": "12_atheist",
+      "name": "Atheist",
+      "texture_url": "https://textures.minecraft.net/texture/c98cf8562ca558bb608bb34f37d3012258ac4e35dd4e72d717133cc89d68a1db"
+    },
+    {
+      "id": "13_spaghetti_monster",
+      "name": "Spaghetti Monster",
+      "texture_url": "https://textures.minecraft.net/texture/e54383d42d2fecbce180d872bf6e84b399cceaee55740882b3f28050ec573b77"
+    },
+    {
+      "id": "14_ahimsa_hand",
+      "name": "Ahimsa hand",
+      "texture_url": "https://textures.minecraft.net/texture/33a38d6b1a38a39e9a6f93736ad169035eabc37391266ab6d72bda946ceba736"
+    },
+    {
+      "id": "15_bahai_star",
+      "name": "Bahá’í star",
+      "texture_url": "https://textures.minecraft.net/texture/30aabfcc5d30a91eda84e455f53faedf73d313c90b61e8f7678bcff57f1c5df6"
+    },
+    {
+      "id": "16_sacred_fire",
+      "name": "Sacred fire",
+      "texture_url": "https://textures.minecraft.net/texture/a6c3b75944c94ad650836079749cd7e297d7772b07387925bcded67e450ac70e"
+    },
+    {
+      "id": "17_mjolnir",
+      "name": "Mjölnir",
+      "texture_url": "https://textures.minecraft.net/texture/4d8efccaa29a1a4b9347ef96e7b808ecc8d8ee926bb619927b96d9495baffe06"
+    },
+    {
+      "id": "18_pentagram",
+      "name": "Pentagram",
+      "texture_url": "https://textures.minecraft.net/texture/b421a7e55095a7d51587aa532504c96d04a1bde352bac6f32b78f2969f2563e7"
+    },
+    {
+      "id": "19_ankh",
+      "name": "Ankh",
+      "texture_url": "https://textures.minecraft.net/texture/a86874d634077715c8ecdf993f57db7606ec2ea753ba6872d099a56e82179db8"
+    },
+    {
+      "id": "20_humanist",
+      "name": "Humanist",
+      "texture_url": "https://textures.minecraft.net/texture/8e40aba3f48c9d90972b1de63891b11f505e796a81785b911fb7b4cf0aba9938"
+    },
+    {
+      "id": "21_sumerian_numerals",
+      "name": "Sumerian",
+      "texture_url": "https://textures.minecraft.net/texture/c96d663e19831b599f1a31d1f5fbdef0995d130582be0e64a025f526149838fb"
+    },
+    {
+      "id": "22_among_us",
+      "name": "Among Us",
+      "texture_url": "https://textures.minecraft.net/texture/813f68d17669466c82ba2cd2ae45ff7b2909b6cc24dc57ed2eb50a0b743d8327"
+    }
+  ]
+}
