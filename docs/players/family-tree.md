@@ -14,7 +14,7 @@ To focus on someone else, use `/faith family <player>`. To adjust how far the vi
 
 ## Understand the connections
 
-Partner links come from completed [marriages](marriage.md). Parent and child links come from completed [adoptions](adoption.md). Marriage alone does not create a parent relationship, and divorce does not remove recorded parents.
+Partner links come from completed [marriages](marriage.md). Parent and child links come from active [adoptions](adoption.md). Marriage alone does not create a parent relationship, and divorce does not remove parents. Ending an adoption removes that direct link from the tree; historical ancestry still protects against incest and cycles.
 
 When you focus on someone else, relationship descriptions refer to that person. The tree is a view of the family record; opening or browsing it does not change relationships.
 

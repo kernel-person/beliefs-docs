@@ -57,9 +57,12 @@ Prefer `/faith relationships` and `/faith pending` when choosing people or revie
 | `/faith adopt request <parent> <child>` | Request adoption as a participant. The parent's current marriage group becomes the proposed parent set. |
 | `/faith adopt consent <request-id>` | Give your consent to an adoption request. |
 | `/faith adopt decline <request-id>` | Decline an adoption request. |
-| `/faith divorce` | Leave your marriage; permanent parent–child relationships remain. |
+| `/faith divorce` | Leave your marriage; parent–child connections remain. |
+| `/faith unadopt [player]` | Choose and review one of your direct parent–child connections to end. |
 
-Every required participant must consent. Sending or accepting a request does not complete it. Adoption makes its parent set permanent.
+Every required participant must consent. Sending or accepting a request does not complete it. Ending a parent connection is separate from divorce; historical ancestry remains protected.
+
+In a joined ceremony, sneak and stand still to pray, or drop the required offering. These actions need no command.
 
 ## Clergy and founders
 
@@ -101,3 +104,18 @@ These require `beliefs.admin` (operators by default).
 `status` reports the faith count and family-tree adapter state. `clergy` appoints or removes clergy for an existing member of a server-owned faith; it cannot appoint Agnostic clergy or edit player-founded leadership. These commands also work from the console without the leading slash.
 
 `nether` must be run by a player standing at a safe Nether arrival point. It saves that position without changing personal respawn points. See [server configuration](../server/configuration.md).
+
+### Family tools
+
+| Command | Action |
+| --- | --- |
+| `/faithadmin family [player]` | Open the family tools and review a change. |
+| `/faithadmin tool` | Receive the wand; right-click a player to view their Beliefs menus. |
+| `/faithadmin as <player>` | View an online player's menus as that player. |
+| `/faithadmin stop` | End the acting session and return to your own menu. |
+| `/faithadmin marry <player> <player> [...]` | Marry the chosen people, including their existing group. Separate marriage groups cannot merge. |
+| `/faithadmin divorce <player>` | Remove that person from their marriage. `/faithadmin breakup` is an alias. |
+| `/faithadmin adopt <parent> <child>` | Adopt with the parent's full current marriage group, or that parent alone. |
+| `/faithadmin unadopt <parent> <child>` | End exactly this direct parent–child connection. |
+
+Explicit family-edit commands apply immediately. They skip consent, rings and ceremony presence, award no deeds, and retain faith, size, kinship and cycle checks. Names with spaces need quotes; UUIDs are also accepted. Read [Family administration](../server/family-tools.md) before editing.

@@ -15,6 +15,7 @@ Stop the server before editing configuration files, preserve a backup, then rest
 | `limits.consent-seconds` | How long marriage and adoption requests remain open. |
 | `community.timezone` | Timezone for real-world holy days. Use an IANA name such as `Europe/London`. |
 | `worship.allowed-outcomes` | Ritual powers permitted on the server. An empty list disables all ceremony outcomes, including prayer. |
+| `worship.offering.seconds` | How long a thrown offering floats while its progress bar fills; default `3`, bounded to `1`–`30`. |
 | `worship.allowed-weather-worlds` | World names or UUIDs allowed for weather rituals. An empty list allows normal Overworld environments. |
 | `marriage-ring.recipe` | Whether rings can be crafted and which recipe is used. Recipe changes apply on restart; existing rings remain valid. |
 

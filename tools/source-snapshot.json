@@ -1,8 +1,8 @@
 {
   "plugin_version": "0.1.0-SNAPSHOT",
   "sources": {
-    "config.yml": "93a43b85241396897d77a18342e14f316d95bc25a08776e14b5b9f9243c9e3dd",
-    "plugin.yml": "05f11f0fb738bca08dad880b8d3613b1854db4355b3442ebcf984591ca7c59b5",
+    "config.yml": "6e27a811fa67c9e146f86ab9a2e3d0fd2877d347b3ad206f033cf52ad9f61366",
+    "plugin.yml": "bbea65a49d20cc09e47be3fe93ecff91a44973001a55c87020d5024da20a24e5",
     "symbols.yml": "b41f05e8a0bb8a73a3b12779546365e96f85eddd82a17e1cf1ae225fcf44df11"
   },
   "configuration": {
@@ -80,6 +80,9 @@
       "holy-water-amount": 1,
       "prayer": {
         "sneak-hold-seconds": 3
+      },
+      "offering": {
+        "seconds": 3
       },
       "directional-prayer": {
         "angle-degrees": 20,

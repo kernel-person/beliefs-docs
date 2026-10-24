@@ -63,6 +63,7 @@ nav:
   - Server owners:
       - Installation: server/installation.md
       - Configure your server: server/configuration.md
+      - Family administration: server/family-tools.md
       - Updates & backups: server/updating.md
       - Heirloom integration: server/heirloom.md
       - Troubleshooting: server/troubleshooting.md

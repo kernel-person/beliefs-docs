@@ -19,8 +19,8 @@ Prayer, offering, consumption and blessing amounts are shared group totals. **St
 | Action | What participants do |
 | --- | --- |
 | **Gather** | Nearby people join the ceremony |
-| **Pray** | Begin prayer, then hold sneak |
-| **Offer** | Hold the selected item and choose **Offer item** |
+| **Pray** | Hold sneak and stand still when the step begins |
+| **Offer** | Throw the selected item; punch the floating offering to cancel |
 | **Consume** | Eat or drink the selected item normally |
 | **Bless** | Choose **Bless**, meeting the clergy and item requirements |
 | **Stay underwater** | Each joined recipient except the leader stays fully underwater for 1–300 continuous seconds |

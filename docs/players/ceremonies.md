@@ -14,13 +14,13 @@ Merely standing nearby does not join a ceremony.
 | Step | What to do |
 | --- | --- |
 | Gather | Enough nearby people must explicitly join. |
-| Pray | Choose **Begin prayer**, then hold sneak. See [Prayer](prayer.md). |
-| Offer | Hold the requested item and choose **Offer item**. It is reserved until completion. |
+| Pray | Hold sneak and stand still when this step begins. No command is needed. See [Prayer](prayer.md). |
+| Offer | Throw the requested item with your drop key. It floats as the progress bar fills; punch your offering to cancel and recover it. |
 | Consume | Close the screen and eat or drink the requested item normally. |
 | Bless | Choose **Bless**; follow the shown item and clergy requirements. Blessing and forgiveness use the hosting faith's holy water. |
 | Stay underwater | Each joined recipient stays fully underwater for the shown continuous time. The leader stays nearby. |
 
-Prayer, offering, consumption and blessing amounts are group totals. **Stay underwater** shows seconds for each recipient.
+Prayer, offering, consumption and blessing amounts are group totals. **Stay underwater** shows seconds for each recipient. Only the needed offering amount is reserved; it remains refundable until the whole ceremony completes.
 
 ## Baptism
 

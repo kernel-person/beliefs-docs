@@ -24,7 +24,7 @@ For a marriage or adoption, open `/faith pending`. Every required participant mu
 
 ## Prayer or a ceremony will not progress
 
-Use `/faith worship` to see the current ceremony step and fast timer. Start prayer explicitly with `/faith pray`; merely sneaking does not start a prayer. Follow the current step, stay within the ceremony's required area and check that enough participants have joined.
+Use `/faith worship` to check the current step and participants. During a joined prayer step, hold sneak and stand still; moving resets the hold. Outside a ceremony, first choose **Begin prayer** or use `/faith pray`. For an offering, throw the requested item and wait for its progress bar. Punch your floating offering to recover it and try again.
 
 For a directional bonus, check `/faith holyplace info`. A missing lodestone or a destination in another world can make the bonus unavailable while ordinary prayer still works. Cooldowns and a disabled outcome can also block an action; check the feedback and [server settings](../reference/configuration.md).
 

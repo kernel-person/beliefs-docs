@@ -86,6 +86,7 @@ Existing configuration files are retained on upgrades. These tables are generate
 | `worship.blessing-seconds` | `120` |
 | `worship.holy-water-amount` | `1` |
 | `worship.prayer.sneak-hold-seconds` | `3` |
+| `worship.offering.seconds` | `3` |
 | `worship.directional-prayer.angle-degrees` | `20` |
 | `worship.directional-prayer.hold-seconds` | `10` |
 | `worship.directional-prayer.bonus-cooldown-seconds` | `300` |
@@ -156,6 +157,8 @@ worship:
   holy-water-amount: 1
   prayer:
     sneak-hold-seconds: 3
+  offering:
+    seconds: 3
   directional-prayer:
     angle-degrees: 20
     hold-seconds: 10

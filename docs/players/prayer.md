@@ -1,13 +1,15 @@
 # Prayer
 
-Start prayer deliberately, then hold sneak while the world guidance shows your progress. Sneaking on its own does not begin a prayer.
+Start or join a prayer ceremony, then hold sneak and stand still. A joined ceremony starts listening when its prayer step begins; ordinary crouching outside a ceremony does nothing.
 
 ## Offer a prayer
 
 1. Open `/faith` and choose **Prayer**.
 2. Read the requirements and any remaining wait, then choose **Begin prayer**. You can also use `/faith pray`.
-3. Hold your sneak key continuously. By default, each prayer action needs **3 seconds**. Releasing sneak resets the current hold.
+3. Hold sneak and stand still. By default, each prayer action needs **3 seconds**. Moving or releasing sneak resets the current hold.
 4. Follow the next instruction and stay nearby until the ceremony finishes. A completed action may still be waiting for the ceremony's minimum time or other participants.
+
+If you already joined a ceremony, simply follow its prayer prompt—there is no second **Begin prayer** action.
 
 The standard prayer has a **10-second minimum** and a **5-minute cooldown**. Your faith can change its actions, timing, participants and location requirements. The screen shows those rules.
 

@@ -1,6 +1,6 @@
 # Adoption
 
-Adoption creates a **permanent parent–child connection**. A person's parents are recorded together, once. There is no un-adopt action, and later adoption cannot replace or add to an existing parent set.
+Adoption connects a child to the agreed parent group. Marriage does not add or remove parents automatically.
 
 ## Request adoption
 
@@ -15,10 +15,18 @@ The completed connection appears in your [family tree](family-tree.md). Divorce 
 
 ??? tip "The request cannot complete"
 
-    The child must not already have recorded parents. Nobody can become their own parent, create an ancestry loop or make an existing marriage join relatives. A changed parent group needs a fresh review and request. Requests expire after 5 minutes by default; the server can change this limit.
+    The child must have no active parent connections. Nobody can become their own parent, create an ancestry loop or make an existing marriage join relatives. A changed parent group needs a fresh review and request. Requests expire after 5 minutes by default; the server can change this limit.
 
 ??? info "Cancel before completion"
 
     Use **Decline** or **Cancel request** in the pending request. This cancels the proposal. It does not undo a completed adoption. **Priest help** only coordinates a meeting; volunteering never supplies anyone's consent.
+
+## End an adoption connection
+
+Open `/faith relationships` → **End adoption**, choose the parent or child, then confirm. `/faith unadopt [player]` opens the same review.
+
+Either person can end their direct connection. Other parents remain. Once all active parent connections have ended, the child can be adopted again.
+
+The ended link leaves the family tree, but its ancestry stays recorded for safeguards. Former relatives still cannot marry, and a new adoption cannot create a cycle or make an existing marriage join relatives.
 
 For partner groups and their separate rules, read [Marriage](marriage.md).
