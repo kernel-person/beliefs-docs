@@ -50,4 +50,4 @@ Before publishing a gameplay change:
 
 ## Artwork
 
-Symbol faces are the user-provided artwork registered in Beliefs’ catalogue. The book mark and ring recipe diagram are local SVGs; the diagram follows the bundled recipe and is not a game screenshot. See [credits](docs/reference/credits.md). Add genuine screenshots only when their controls match the documented build.
+Symbol faces are the user-provided artwork registered in Beliefs’ catalogue. The book mark is a local SVG. The recipe image uses genuine Minecraft textures and the exact Beliefs ring-head skin, rendered offline using the bundled native GUI transform. Its recipe follows the plugin configuration; it is not a game screenshot. See [credits](docs/reference/credits.md). Add genuine screenshots only when their controls match the documented build.

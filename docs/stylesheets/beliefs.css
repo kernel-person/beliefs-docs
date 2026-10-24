@@ -68,7 +68,7 @@ body { background: var(--beliefs-bg); }
 .symbol-card img { display: block; margin: 0 auto .5rem; width: 3rem; height: 3rem; image-rendering: pixelated; }
 .symbol-card span { display: block; color: var(--beliefs-text); font-size: .76rem; }
 .symbol-card code { display: block; overflow-wrap: anywhere; margin-top: .3rem; font-size: .58rem; color: var(--beliefs-muted); }
-.md-typeset .recipe-figure { display: block; width: 100%; max-width: 34rem; }
+.md-typeset .recipe-figure { display: block; width: 528px; max-width: 100%; image-rendering: pixelated; }
 @media (max-width: 600px) {
   .beliefs-hero { padding: 1.1rem; }
   .guide-grid { grid-template-columns: 1fr; }

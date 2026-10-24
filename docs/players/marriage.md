@@ -16,7 +16,7 @@ One ring is consumed only when completion succeeds. Marriage does not create par
 
 The default recipe uses **seven gold ingots and one diamond**: diamond at top centre, centre empty, gold in the other seven slots. The server may customize or disable crafting.
 
-![Default Marriage Ring recipe: gold, diamond, gold; gold, empty, gold; gold, gold, gold.](../images/marriage-ring.svg)
+![Default Marriage Ring recipe: gold, diamond, gold; gold, empty, gold; gold, gold, gold.](../images/marriage-ring.png){ .recipe-figure }
 
 ??? tip "A request is blocked or expires"
 

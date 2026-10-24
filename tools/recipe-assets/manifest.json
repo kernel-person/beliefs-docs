@@ -1,0 +1,37 @@
+{
+  "minecraft_version": "26.2",
+  "client_jar_sha1": "2dc72797acbc1b63fc16a11c4ac393605f453754",
+  "assets": [
+    {
+      "file": "gold_ingot.png",
+      "source": "minecraft-26.2-client.jar!/assets/minecraft/textures/item/gold_ingot.png",
+      "sha256": "e4c1e2ea6d1fa70299163ebff573b4bfda1ef09099bedc4b5789c598f0a65738"
+    },
+    {
+      "file": "diamond.png",
+      "source": "minecraft-26.2-client.jar!/assets/minecraft/textures/item/diamond.png",
+      "sha256": "fd11635ec666c3febb9e6dd6d3ec49cdfb4d16a2a1d595ebd10e56b302417d08"
+    },
+    {
+      "file": "template_skull.json",
+      "source": "minecraft-26.2-client.jar!/assets/minecraft/models/item/template_skull.json",
+      "sha256": "cd9a42a9a400876f1ca55e3caef2b20aea01710d761941c0eb7a2e64475ea224"
+    },
+    {
+      "file": "crafting_table.png",
+      "source": "minecraft-26.2-client.jar!/assets/minecraft/textures/gui/container/crafting_table.png",
+      "sha256": "baf65a599d8bb380b1b03efa1862c20fd29e936b43110d7438b9fe00086075b0"
+    },
+    {
+      "file": "ascii.png",
+      "source": "minecraft-26.2-client.jar!/assets/minecraft/textures/font/ascii.png",
+      "sha256": "e8646f1ed1f4bfd597d262cca3d8fac88ceaaa62807bbd5e607b2e3fe41c928a"
+    },
+    {
+      "file": "marriage-ring-skin.png",
+      "source": "https://textures.minecraft.net/texture/93af4b73349e723b8654b75f905bd38995ccbb1a434d470b06279678945ecbdb",
+      "sha256": "93af4b73349e723b8654b75f905bd38995ccbb1a434d470b06279678945ecbdb"
+    }
+  ],
+  "ring_texture_url": "https://textures.minecraft.net/texture/93af4b73349e723b8654b75f905bd38995ccbb1a434d470b06279678945ecbdb"
+}

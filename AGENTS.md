@@ -11,3 +11,5 @@ This is the standalone public documentation repository, not the plugin source.
 - The default sibling source path is `../beliefs`. CI builds from the checked-in public snapshot.
 - Before a push, run the reference check, strict MkDocs build and `tools/check_site.py site`.
 - Verify the live page after authorized publication. Use the repository owner’s configured GitHub account without changing unrelated active accounts.
+
+- Recipe pictures must use the actual vanilla item textures and plugin head skins. Do not replace them with hand-drawn or invented item icons.
