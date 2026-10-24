@@ -3,11 +3,13 @@
 import argparse
 import hashlib
 import html
+from io import BytesIO
 import json
 from pathlib import Path
 import re
 import sys
 import yaml
+from PIL import Image
 from recipe_render import render_recipe
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -102,6 +104,17 @@ def outputs(data):
             'docs/images/marriage-ring.png': render_recipe(data['configuration'])}
 
 
+def generated_matches(path, expected):
+    if not path.is_file():
+        return False
+    if path.suffix != '.png':
+        return path.read_bytes() == expected
+    # PNG compression differs between Pillow's macOS and Linux builds.
+    # Validate every decoded pixel rather than platform-specific IDAT bytes.
+    with Image.open(path) as actual, Image.open(BytesIO(expected)) as rendered:
+        return actual.size == rendered.size and actual.convert('RGBA').tobytes() == rendered.convert('RGBA').tobytes()
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', type=Path, help='Beliefs plugin checkout; refresh the public snapshot.')
@@ -112,7 +125,7 @@ def main():
     if args.source:
         files['tools/source-snapshot.json'] = json.dumps(data, indent=2, ensure_ascii=False) + '\n'
     files = {name: value.encode('utf-8') if isinstance(value, str) else value for name, value in files.items()}
-    stale = [name for name, value in files.items() if not (ROOT/name).is_file() or (ROOT/name).read_bytes() != value]
+    stale = [name for name, value in files.items() if not generated_matches(ROOT/name, value)]
     if args.check:
         if stale:
             sys.exit('Outdated generated files: ' + ', '.join(stale))
