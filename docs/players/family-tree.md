@@ -2,6 +2,8 @@
 
 Use the family tree to explore recorded parents, children and partners, including players who are offline.
 
+![The in-game family tree with player-head portraits and a tooltip showing “First cousin once removed” and their parent.](../images/family-tree.png)
+
 ## Open a tree
 
 1. Run `/faith family` for your own tree. You can also open **/faith → Family** and select a person.
