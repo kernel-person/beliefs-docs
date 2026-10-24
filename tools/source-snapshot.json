@@ -2,7 +2,7 @@
   "plugin_version": "0.1.0-SNAPSHOT",
   "sources": {
     "config.yml": "93a43b85241396897d77a18342e14f316d95bc25a08776e14b5b9f9243c9e3dd",
-    "plugin.yml": "6743ebab4fce0dfd5f8ccf0eb637f16c0977c1a1dbfc6041f5f694767fd4e2a9",
+    "plugin.yml": "05f11f0fb738bca08dad880b8d3613b1854db4355b3442ebcf984591ca7c59b5",
     "symbols.yml": "b41f05e8a0bb8a73a3b12779546365e96f85eddd82a17e1cf1ae225fcf44df11"
   },
   "configuration": {

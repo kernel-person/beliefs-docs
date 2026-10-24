@@ -44,6 +44,16 @@ Set the arrival again with `/faithadmin nether` while standing in a safe Nether 
 
 Check `community.timezone` and the date and recurrence saved for that holy day. Invalid timezone names produce a warning and fall back to `Europe/London`. Restart after changing the server setting.
 
+All-day entries run between local midnights, including daylight-saving changes. Eid presets use Umm al-Qura estimates and can differ from local moon-sighting decisions. Vesak uses explicitly published regional dates. See [example holy-day configuration](configuration.md#example-holy-days) to use a locally confirmed date.
+
+## An example calendar is empty or a preset did not change
+
+Run `/faithadmin setup <faith>` to see saved and upcoming occasion counts. Check that the protected example faith exists and its entries are enabled in `example-holy-days.yml`. A player-created faith with the same name does not receive the example presets.
+
+Clergy edits and removals take precedence over configuration changes. Expired one-off dates disappear from the upcoming list; the bundled Vesak schedule ends in 2027. Add newly published dates as described in [configuration](configuration.md#example-holy-days).
+
+If the startup log says `Example holy days unchanged`, correct the file's YAML or reported field value, then restart. Invalid configuration leaves existing occasions unchanged.
+
 ## Report an unresolved problem
 
 Include the Beliefs version, Paper build, Java version, exact action, expected result, actual result and relevant log excerpt. Add Heirloom's exact build if food integration is involved. Remove credentials, license data and private player information before sharing. Keep backups locally; do not post your database as a first troubleshooting step.

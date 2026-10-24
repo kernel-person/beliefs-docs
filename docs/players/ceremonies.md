@@ -34,7 +34,15 @@ The faith can change the required time. Baptism records a service under normal t
 
 In **Nearby / active**, choose **Fast · [duration]** to begin a voluntary fast. Stay online without consuming food or drink. Consumption breaks the fast; the faith's teachings determine its score. A completed fast has a 30-minute cooldown by default.
 
-**Ceremonies → Holy days** lists planned occasions in the displayed real-world timezone. Joining is voluntary, and normal ceremony requirements still apply. **Nearby remembrances** finds gatherings for [completed lives](your-life.md#remember-a-completed-life).
+**Nearby remembrances** finds gatherings for [completed lives](your-life.md#remember-a-completed-life).
+
+## Holy days
+
+**Ceremonies → Holy days**, or `/faith calendar`, lists upcoming occasions in the displayed real-world timezone. Select an occasion to read it; **Back** returns to the same calendar page.
+
+An **All day** observance marks a date for reflection and community. It starts no ceremony or fast and awards no rewards. For a scheduled activity happening now, members can choose **Start ceremony** or **Begin voluntary fast**; normal requirements and cooldowns still apply.
+
+The bundled faith examples include Catholic Easter, Christmas and All Saints, the two Islamic Eids, and Vesak. Eid entries name the Umm al-Qura calendar because local dates can differ. **Vesak (Singapore)** follows published Singapore dates; your community can choose another regional calendar. Your server's leaders can change these entries.
 
 ??? tip "A ceremony will not finish, or you need to stop"
 

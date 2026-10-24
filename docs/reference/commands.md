@@ -90,11 +90,14 @@ An officiant must be authorized for that request and cannot be one of its partic
 These require `beliefs.admin` (operators by default).
 
 ```text
+/faithadmin setup [faith]
 /faithadmin status
 /faithadmin clergy <faith> <player> <true|false>
 /faithadmin nether
 ```
 
-`status` reports the faith count and family-tree adapter state. `clergy` appoints or removes clergy for an existing member of a server-owned faith; it cannot appoint Agnostic clergy or edit player-founded leadership. Both work from the console without the leading slash.
+`setup` opens a read-only checklist for clergy, temples, optional prayer direction and holy days. Choose a faith, or supply its full name or UUID. **Commands in chat** provides suggestions to review and send; opening the guide changes nothing.
+
+`status` reports the faith count and family-tree adapter state. `clergy` appoints or removes clergy for an existing member of a server-owned faith; it cannot appoint Agnostic clergy or edit player-founded leadership. These commands also work from the console without the leading slash.
 
 `nether` must be run by a player standing at a safe Nether arrival point. It saves that position without changing personal respawn points. See [server configuration](../server/configuration.md).

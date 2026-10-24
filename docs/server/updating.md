@@ -6,12 +6,14 @@ Beliefs is a preview. Test a new build against a separate copy of your server be
 
 1. Stop the server cleanly and wait for it to finish saving.
 2. Back up the **whole server at that stopped point**. In particular, keep the entire `plugins/Beliefs` directory and the worlds' player data together. Keep the old Beliefs JAR too.
-3. Replace the Beliefs JAR with the new build. Preserve `config.yml`, `symbols.yml` and `beliefs.db`; do not replace them with empty defaults.
+3. Replace the Beliefs JAR with the new build. Preserve `config.yml`, `symbols.yml`, `example-holy-days.yml` and `beliefs.db`; do not replace them with empty defaults.
 4. Compare your settings with the new build's configuration reference and release notes. Add or adjust settings deliberately.
-5. Start the server and check the startup log and `faithadmin status`.
+5. Start the server and check the startup log and `faithadmin status`. Use `faithadmin setup` to review each faith's saved clergy, places and upcoming holy days.
 6. Check that existing faiths, family relationships and life reports still appear before reopening the server to everyone.
 
 The database and player data form one backup set. Offerings and memorial deliveries keep related records in both places. Restoring only `beliefs.db`, or only player inventories, can leave those records out of sync. Keep any SQLite sidecar files that remain in the plugin directory with the stopped-server backup.
+
+Review [example holy days](configuration.md#example-holy-days) when updating. The plugin preserves your calendar configuration and community edits. Future published Vesak dates need new one-off entries; the bundled schedule currently ends in 2027.
 
 ## Roll back as one set
 

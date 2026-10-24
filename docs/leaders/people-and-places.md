@@ -30,9 +30,13 @@ The founder can turn **Bonus: on** after a destination exists. Members can hold 
 
 ## Plan a holy day
 
-Open **Holy days** → **New holy day**. Set a title, date, start time, duration, and **Once**, **Weekly**, or **Yearly** repetition. Choose a saved ceremony or voluntary fast, optionally enable follower chat announcements, then **Save**.
+Open **Holy days** → **New holy day**, or use `/faith calendar manage`. Set a title and date, then choose an activity and repetition. **All-day observance** covers the whole local date; its start and duration fields are ignored. A saved ceremony or voluntary fast uses the start time and duration you enter. Optionally enable follower chat announcements, then **Save**.
 
-The calendar uses real-world time in the displayed server timezone—Europe/London by default. Participants still choose to begin; normal ceremony requirements and cooldowns apply.
+**Once**, **Weekly** and **Yearly** use the entered date. **Western Easter** calculates Easter each year; the two **Umm al-Qura** options calculate the corresponding Eid. For calculated repeats, the entered date is the earliest allowed date. Regional observances can differ, so use **Once** for a locally published date.
+
+The calendar uses real-world time in the displayed server timezone—Europe/London by default. An observance starts no ceremony or fast and awards no rewards. Participants still choose to begin scheduled activities; normal requirements and cooldowns apply.
+
+The server-owned examples have [configurable default calendars](../server/configuration.md#example-holy-days). Saving or removing one through the editor preserves that community decision across restarts.
 
 ??? note "Calendar drafts and removal"
 

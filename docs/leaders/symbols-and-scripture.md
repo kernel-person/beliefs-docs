@@ -14,13 +14,15 @@ For another head, choose **Custom head**, paste a `textures.minecraft.net` skin 
 
 ## Write scripture
 
-Open **Scripture** within the same settings editor. Enter stories, principles, or teachings in **Sacred text: stories and teachings**, then select **Save**. The text supports multiple lines and up to 6,000 characters.
+Open **Scripture** within the same settings editor. Set **Book title (optional)** and enter stories, principles, or teachings in **Sacred text: stories and teachings**, then select **Save**. The title supports up to 80 characters on one line; the text supports multiple lines and up to 6,000 characters.
+
+A blank book title uses the faith's name followed by "teachings". The protected examples use **Catholic Bible**, **Qur'an** and **Tripitaka**. The title names newly collected sacred books; changing it does not rewrite books already in inventories.
 
 Members and visitors read it from the faith's **Scripture** page. A founder's scripture is descriptive text: change gameplay effects separately under [Teachings and food rules](teachings-and-food.md).
 
 ## Give members a way back
 
-Members can open **Scripture** → **Get sacred item**. Right-clicking the item opens its faith; using it on a player inspects them. It uses the faith's head texture when one is configured, otherwise a book.
+Members can open **Scripture** → **Get sacred item**. Newly collected sacred items are books with the saved title. Right-clicking the book opens its faith; using it on a player inspects them. The faith's chosen symbol still appears in its menus.
 
 The default collection wait is 60 seconds, shared across faiths and preserved through reconnects and restarts. See [configuration](../reference/configuration.md) if the server uses a different wait.
 
