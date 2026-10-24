@@ -27,3 +27,7 @@ Open **Your life → Leave faith** and review the confirmation. You return to Ag
     An application needs clergy approval. An invitation-only faith needs an invitation. If you already belong to another faith, leave it first. Founders with other members must choose a successor in **/faith settings → People** before leaving. If you cannot use `/faith`, ask the server owner to check your access.
 
 Continue with [Prayer](prayer.md), [your family tree](family-tree.md) or [Your life](your-life.md).
+
+## Back and Close
+
+**Back** (blue structure-void icon) returns to the previous screen. **Close** (red barrier) exits the menu. At the first screen, only Close appears. **Esc** goes Back, or closes the menu at the first screen.

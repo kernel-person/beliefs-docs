@@ -8,10 +8,13 @@ Adoption connects a child to the agreed parent group. Marriage does not add or r
 2. Choose **Adopt as my child** and select a nearby player, or **Ask to be adopted** and choose your proposed parent.
 3. Review the full list. Selecting a married parent includes **every member of their current marriage group**. An unmarried parent is listed alone.
 4. Choose **Send request**. Your consent is recorded; every other parent and the child must each open the request and choose **Accept adoption**. Requests are also available through `/faith pending`.
-5. Open **Priest help → Ask for help** if you need compatible clergy. The priest must not be a parent or the child in this request.
-6. Gather with that priest, online and alive in the same world. By default, all participants must be within **32 blocks**. The priest completes the adoption after everyone has consented.
+5. Adoption completes as soon as everyone accepts. No priest or gathering is needed.
 
 The completed connection appears in your [family tree](family-tree.md). Divorce and changes of faith do not remove it. A future marriage does not automatically add new parents.
+
+## Make it a ceremony
+
+Choose **Plan ceremony** before sending the request. Everyone accepts, then a compatible priest who is not a parent or the child completes it with everyone nearby. The default range is **32 blocks** in the same world. Use **Priest help** from that request to arrange the meeting. Older requests retain their ceremony requirement.
 
 ??? tip "The request cannot complete"
 
@@ -19,7 +22,7 @@ The completed connection appears in your [family tree](family-tree.md). Divorce 
 
 ??? info "Cancel before completion"
 
-    Use **Decline** or **Cancel request** in the pending request. This cancels the proposal. It does not undo a completed adoption. **Priest help** only coordinates a meeting; volunteering never supplies anyone's consent.
+    Use **Decline** or **Cancel request** in the pending request. This cancels the proposal. It does not undo a completed adoption. For ceremony requests, **Priest help** coordinates a meeting; volunteering never supplies anyone's consent.
 
 ## End an adoption connection
 

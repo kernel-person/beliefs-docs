@@ -51,16 +51,18 @@ Prefer `/faith relationships` and `/faith pending` when choosing people or revie
 
 | Command | Action |
 | --- | --- |
-| `/faith marry request <player>` | Ask to marry someone while holding a Marriage Ring. |
-| `/faith marry consent <request-id>` | Give your consent to a marriage request. |
+| `/faith marry request <player> [ceremony]` | Ask to marry someone while holding a Marriage Ring. |
+| `/faith marry consent <request-id>` | Accept the full group; an ordinary request completes once everyone accepts and the ring is available. |
 | `/faith marry decline <request-id>` | Decline a marriage request. |
-| `/faith adopt request <parent> <child>` | Request adoption as a participant. The parent's current marriage group becomes the proposed parent set. |
-| `/faith adopt consent <request-id>` | Give your consent to an adoption request. |
+| `/faith adopt request <parent> <child> [ceremony]` | Request adoption as a participant. The parent's current marriage group becomes the proposed parent set. |
+| `/faith adopt consent <request-id>` | Accept the parent group; an ordinary request completes on the final consent. |
 | `/faith adopt decline <request-id>` | Decline an adoption request. |
 | `/faith divorce` | Leave your marriage; parent–child connections remain. |
 | `/faith unadopt [player]` | Choose and review one of your direct parent–child connections to end. |
+| `/faith marry complete <request-id>` | Finish an accepted ordinary request when its ring is available; a ceremony requires an authorized officiant and everyone nearby. |
+| `/faith adopt complete <request-id>` | Complete an accepted request; a ceremony requires an authorized officiant and everyone nearby. |
 
-Every required participant must consent. Sending or accepting a request does not complete it. Ending a parent connection is separate from divorce; historical ancestry remains protected.
+Every required participant must consent. Ordinary requests complete after the final acceptance; marriage also requires the sender’s ring. Add `ceremony` to request a priest-led completion instead. Ending a parent connection is separate from divorce; historical ancestry remains protected.
 
 In a joined ceremony, sneak and stand still to pray, or drop the required offering. These actions need no command.
 
@@ -77,16 +79,14 @@ In a joined ceremony, sneak and stand still to pray, or drop the required offeri
 | `/faith calendar manage` | Clergy: manage your faith's holy days. |
 | `/faith calendar new` | Clergy: open the new holy-day form. |
 | `/faith marry propose <players>` | Clergy: propose a marriage; separate player names with spaces or commas. |
-| `/faith marry complete <request-id>` | Authorized officiant: complete a fully consented marriage with the required ring and everyone nearby. |
 | `/faith adopt propose <parent> <child>` | Clergy: propose adoption with the parent's current marriage group. |
-| `/faith adopt complete <request-id>` | Authorized officiant: complete a fully consented adoption with everyone nearby. |
 | `/faith settings` | Founder: manage identity, customs, food, teachings and rituals. `/faith manage` is an alias. |
 | `/faith clergy <player> <true-or-false>` | Founder: appoint a current member as clergy with `true`, or return them to membership with `false`. |
 | `/faith transfer <player>` | Founder: transfer leadership to another current member. You remain clergy. |
 | `/faith scripture` | Founder: copy the held written book or book and quill into the sacred text. |
 | `/faith disband` | Founder: archive the faith. Family and life history remain. |
 
-An officiant must be authorized for that request and cannot be one of its participants. For priest help, open the family request and choose **Priest help**; its buttons use the current request state.
+Ordinary requests need no officiant. For ceremony requests, the officiant must be authorized and cannot be a participant. For priest help, open the family request and choose **Priest help**; its buttons use the current request state.
 
 ## Server administration
 
