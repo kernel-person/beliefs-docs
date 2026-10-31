@@ -1,35 +1,35 @@
-# Adoption
+# How to adopt
 
-Adoption connects a child to the agreed parent group. Marriage does not add or remove parents automatically.
+Adoption adds parents and a child to the family tree. Every parent and the child must accept. You can adopt alone or with your marriage group; a priest is optional.
 
-## Request adoption
+## Request a parent–child connection
 
-1. Run `/faith relationships`.
-2. Choose **Adopt as my child** and select a nearby player, or **Ask to be adopted** and choose your proposed parent.
-3. Review the full list. Selecting a married parent includes **every member of their current marriage group**. An unmarried parent is listed alone.
-4. Choose **Send request**. Your consent is recorded; every other parent and the child must each open the request and choose **Accept adoption**. Requests are also available through `/faith pending`.
-5. Adoption completes as soon as everyone accepts. No priest or gathering is needed.
+1. Run `/faith relationships` to open **Your family**.
+2. Choose **Adopt as my child**, then select a nearby player. To become the child instead, choose **Ask to be adopted** and select your proposed parent.
+3. Review the heads labelled **Parent** and **Child**. Selecting a married parent includes **all of their current partners** as parents.
+4. Choose **Send request**. Your consent is recorded automatically.
+5. Every other participant clicks **Yes** in chat, or opens `/faith pending` → the adoption request → **Accept adoption**.
 
-The completed connection appears in your [family tree](family-tree.md). Divorce and changes of faith do not remove it. A future marriage does not automatically add new parents.
+The adoption completes when everyone accepts, and its connections appear in the [family tree](family-tree.md).
 
-## Make it a ceremony
+<!-- Screenshot: Request adoption with the full parent group, child and Send request visible. -->
 
-Choose **Plan ceremony** before sending the request. Everyone accepts, then a compatible priest who is not a parent or the child completes it with everyone nearby. The default range is **32 blocks** in the same world. Use **Priest help** from that request to arrange the meeting. Older requests retain their ceremony requirement.
+You can also right-click someone with your sacred book to open their profile, then choose **Adopt as my child** or **Ask to be adopted**.
 
-??? tip "The request cannot complete"
+## Choose a ceremony instead
 
-    The child must have no active parent connections. Nobody can become their own parent, create an ancestry loop or make an existing marriage join relatives. A changed parent group needs a fresh review and request. Requests expire after 5 minutes by default; the server can change this limit.
+Choose **Plan ceremony** in the adoption preview. Everyone still accepts, then you arrange a compatible, non-participating priest through **Priest help** in the request.
 
-??? info "Cancel before completion"
+Every parent, the child and the priest meet in the same world, within **32 blocks** by default. The priest completes the adoption.
 
-    Use **Decline** or **Cancel request** in the pending request. This cancels the proposal. It does not undo a completed adoption. For ceremony requests, **Priest help** coordinates a meeting; volunteering never supplies anyone's consent.
+??? tip "Someone is missing or the request is blocked"
 
-## End an adoption connection
+    The picker lists nearby players in the same world—within **32 blocks** by default. Move closer and try again.
 
-Open `/faith relationships` → **End adoption**, choose the parent or child, then confirm. `/faith unadopt [player]` opens the same review.
+    A child must have no active parents before a new adoption. Nobody can become their own parent, create an ancestry loop, or make an existing marriage join relatives. If the parent group or a participant's membership changes while the request is pending, make a fresh request. Requests expire after **5 minutes** by default.
 
-Either person can end their direct connection. Other parents remain. Once all active parent connections have ended, the child can be adopted again.
+??? info "What happens if the parents marry or divorce later?"
 
-The ended link leaves the family tree, but its ancestry stays recorded for safeguards. Former relatives still cannot marry, and a new adoption cannot create a cycle or make an existing marriage join relatives.
+    The completed parent group stays the same. Divorce, a new marriage or a change of faith does not add or remove parents automatically.
 
-For partner groups and their separate rules, read [Marriage](marriage.md).
+To cancel a pending request, choose **No** in chat, or **Decline** / **Cancel request** in its details. To end an existing connection, use [End an adoption](end-adoption.md).

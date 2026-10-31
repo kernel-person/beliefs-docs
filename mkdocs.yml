@@ -46,16 +46,21 @@ validation:
 nav:
   - Home: index.md
   - Start here: players/getting-started.md
-  - Playing:
-      - Prayer: players/prayer.md
-      - Food rules: players/food.md
-      - Ceremonies & holy days: players/ceremonies.md
-      - Marriage: players/marriage.md
-      - Adoption: players/adoption.md
-      - Family tree: players/family-tree.md
+  - Player guides:
+      - Join or leave a faith: players/join-faith.md
+      - How to pray: players/prayer.md
+      - Food rules & fasting: players/food.md
+      - Join a ceremony: players/ceremonies.md
+      - Holy days: players/holy-days.md
+      - How to marry: players/marriage.md
+      - How to divorce: players/divorce.md
+      - How to adopt: players/adoption.md
+      - End an adoption: players/end-adoption.md
+      - Explore your family tree: players/family-tree.md
       - Your life: players/your-life.md
-  - Leading a faith:
-      - Create a faith: leaders/create-faith.md
+  - Faith leader guides:
+      - How to create a faith: leaders/create-faith.md
+      - Modify your faith: leaders/modify-faith.md
       - Teachings & food: leaders/teachings-and-food.md
       - Design ceremonies: leaders/ceremonies.md
       - People & places: leaders/people-and-places.md

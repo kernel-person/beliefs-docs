@@ -1,33 +1,43 @@
 # Choose a symbol and write scripture
 
-The founder edits both through `/faith settings` → **Identity**. Changes remain in the settings draft until **Save**.
+**Start here:** `/faith settings → Identity`. The founder edits these settings. Moving between categories keeps a draft; **Save** applies your changes together.
 
 ## Choose a symbol
 
-1. Open the **Symbol** category.
-2. Select a head from the catalogue or an item symbol. The picker includes common items and the item you hold in your main hand.
-3. Check the **Selected** preview and choose **Save**.
+1. Open **Symbol**.
+2. Select a head or item from the gallery. Use **Previous**, **Next** or **Search** to find it.
+3. Check the selected preview and the green checkbox after its name.
+4. Choose **Save**.
 
-The bundled [symbol catalogue](../reference/symbols.md) contains 22 heads. Your server's choices may differ. Choosing an item symbol clears the draft's custom head choice.
+The bundled [catalogue](../reference/symbols.md) has 22 heads, alongside item symbols. Your server may add its own. A symbol is artwork: choosing it does not set food rules, teachings or ceremonies.
 
-For another head, choose **Custom head**, paste a `textures.minecraft.net` skin URL or its texture value, and select **Use head**. This updates the draft; you still need **Save**. **Back** from the custom-head form does not apply the typed head.
+<!-- Screenshot: Three-column symbol gallery with a selected symbol, navigation row and Save. -->
+
+??? tip "Use a custom head or held item"
+
+    The item you hold in your main hand is available as an item-symbol choice. Choosing an item clears the active head texture in your draft.
+
+    For another head, choose **Custom head**, paste its `textures.minecraft.net` skin URL or texture value, and select **Use head**. You still need **Save**. **Back** keeps the typed text for later but does not apply it.
 
 ## Write scripture
 
-Open **Scripture** within the same settings editor. Set **Book title (optional)** and enter stories, principles, or teachings in **Sacred text: stories and teachings**, then select **Save**. The title supports up to 80 characters on one line; the text supports multiple lines and up to 6,000 characters.
+1. Open the **Scripture** category.
+2. Set **Book title (optional)**, such as “The River Book”.
+3. Write your stories, principles or teachings in **Sacred text: stories and teachings**.
+4. Choose **Save**.
 
-A blank book title uses the faith's name followed by "teachings". The protected examples use **Catholic Bible**, **Qur'an** and **Tripitaka**. The title names newly collected sacred books; changing it does not rewrite books already in inventories.
+Members read this through **/faith → Scripture**. Scripture explains the faith in your own words; use [Teachings and food rules](teachings-and-food.md) to change gameplay rewards or restrictions.
 
-Members and visitors read it from the faith's **Scripture** page. A founder's scripture is descriptive text: change gameplay effects separately under [Teachings and food rules](teachings-and-food.md).
+The book title allows 80 characters; scripture allows multiple lines and up to 6,000 characters. A blank title uses the faith's name followed by “teachings”. Changing the title affects newly collected books, not books already in inventories.
 
-## Give members a way back
+## Let members collect the sacred book
 
-Members can open **Scripture** → **Get sacred item**. Newly collected sacred items are books with the saved title. Right-clicking the book opens its faith; using it on a player inspects them. The faith's chosen symbol still appears in its menus.
+Members choose **/faith → Scripture → Get sacred item**. The book uses your saved title and faith symbol. Right-clicking it opens its faith; using it on another player opens that person's information.
 
-The default collection wait is 60 seconds, shared across faiths and preserved through reconnects and restarts. See [configuration](../reference/configuration.md) if the server uses a different wait.
+The default collection cooldown is 60 seconds, shared across faiths and retained after reconnects and restarts. A full inventory grants no item and consumes no cooldown.
 
 ??? note "For server owners: catalogue updates"
 
-    Beliefs loads `plugins/Beliefs/symbols.yml` at startup and creates it only when absent. Updating the plugin does not merge new bundled symbols into an existing file; review catalogue changes and restart after editing it.
+    Preset heads load from `plugins/Beliefs/symbols.yml` at startup. Replacing the plugin JAR does not merge new entries into an existing file. Preserve custom entries when updating it, then restart.
 
-    Agnostic's protected symbol is configured separately with `agnostic.head-texture` in `config.yml`. It is not a normal founder setting. See [installation and updates](../server/installation.md).
+    Agnostic's protected symbol uses the separate `agnostic.head-texture` setting. See [updates and backups](../server/updating.md).

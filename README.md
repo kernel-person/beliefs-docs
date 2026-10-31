@@ -21,6 +21,8 @@ Open `http://127.0.0.1:8000/`. No Minecraft client or server is required.
 
 Keep player instructions aligned with current menu labels and behavior. The plugin README contains historical feature notes, so check the implementation when a flow has changed. Keep draft features, internal test reports and debug controls out of public guides.
 
+The home page and navigation link to task guides for joining, prayer, marriage, divorce, adoption, ending an adoption, creation and advanced editing. [SCREENSHOTS.md](SCREENSHOTS.md) records follow-up captures; it is an editorial checklist, not a published page.
+
 Configuration, permissions, the symbol catalogue and ring recipe illustration are generated from a small public snapshot of bundled plugin resources:
 
 ```sh

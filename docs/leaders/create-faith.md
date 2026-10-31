@@ -1,37 +1,63 @@
-# Create and manage a faith
+# How to create a faith
 
-Create a community with its own values, symbols, food rules, and ceremonies. The server normally allows players to create faiths; its owner can restrict the `beliefs.create` permission.
+Open `/faith browse` → **Create faith**. The setup guide walks you through seven screens; the boxes at the top fill as you advance.
 
-## Found your community
+You must be Agnostic or unaffiliated first. If you belong to another faith, [leave it before creating yours](../players/join-faith.md#leave-or-switch-faith).
 
-1. Run `/faith browse`, then choose **Create faith**.
-2. Enter a unique **Faith name** of 2–40 characters and describe your **Core values**.
-3. Choose **Who can join**: **Open** lets anyone join, **Application** lets clergy approve requests, and **Invitation** requires a clergy invitation.
-4. Choose a symbol, then return to the form.
-5. Select **Create faith** to create the faith and become its founder.
+## 1. Name and values
 
-Choosing a symbol only changes the draft. **Cancel** creates nothing. If you already belong to another non-Agnostic faith, leave it first; see [getting started](../players/getting-started.md).
+Enter a unique **Faith name** and a short description in **Core values**. Tell future members what your community believes, then choose **Continue**.
 
-## Make it your own
+The name can be 2–40 characters. Writing beliefs here describes the faith; gameplay rules come later.
 
-Open `/faith settings` → **Identity**. Its categories include **Identity**, **Membership**, **Worship rules**, **Scripture**, and **Symbol**. You can rename the faith, change role titles, choose joining rules, and edit marriage and worship preferences.
+## 2. Choose your symbol
 
-Moving between these categories keeps your draft. **Save** applies the current category and your other edits together; **Cancel** discards unsaved changes. If Beliefs says the faith changed, reopen the editor before saving again.
+Click a symbol in the gallery. A green checkbox after its name marks your choice. Use the arrow heads for **Previous** and **Next**, or **Search**, then **Continue**.
 
-A newly founded faith starts with pair marriages, interfaith marriage allowed, a ten-minute fast, and both the Nether afterlife and the facing bonus off. These are starting choices, not universal rules. See [configuration](../reference/configuration.md) for server limits.
+Choosing a cross, crescent, or any other symbol does not apply a religion's rules automatically.
 
-## Share the work
+<!-- Screenshot: symbol gallery with a selected head, filling boxes and the control row. -->
 
-| Responsibility | Who can do it? |
-| --- | --- |
-| Identity, teachings, food rules, ceremony design | Founder |
-| Invitations, applications, temples, holy place, holy days | Founder and clergy |
-| Appoint clergy or transfer leadership | Founder |
+## 3. Your community
 
-Continue with [teachings and food](teachings-and-food.md), [ceremonies](ceremonies.md), or [people and places](people-and-places.md).
+Choose **Who can join**:
 
-??? note "Leaving, succession, and server-owned faiths"
+- **Open** — anyone can join.
+- **Application** — clergy approve requests.
+- **Invitation** — clergy invite people.
 
-    Before leaving a faith with other members, choose a successor under **People** → a member → **Transfer**. After transfer, you remain as clergy. **Disband** removes everyone's membership but preserves family and life history.
+Set your **Clergy title**, whether partners may follow different faiths, and **People per marriage**. Two means a pair; larger groups depend on the server limit. Choose **Continue**.
 
-    Server-owned faiths have no player founder. Administrators appoint their clergy; Agnostic is a protected neutral community with no clergy. See the [command reference](../reference/commands.md).
+## 4. Food rules
+
+Select any combination of **Vegetarian**, **Vegan**, **No pork**, **No beef**, **No alcohol**, and **Gluten-free**. Choose **Customize foods** to pick individual foods or ingredients in the item grid.
+
+Choose **Continue** when ready. Selecting nothing leaves food unrestricted. The screen shows the penalty for known violations; uncertain ingredients do not cause a penalty.
+
+## 5. Choose ceremonies
+
+Open an example such as **Simple prayer**, **Shared meal**, or **Baptism**. Adjust its name and requirements, then choose **Use ceremony**. A checkbox marks each included ceremony.
+
+You can use several examples or continue with none. Full step editing is available [after creation](ceremonies.md).
+
+## 6. Holy days
+
+Choose an example such as **Add weekly gathering** or **Add full-moon gathering**. Hover over a choice to see its next occurrence. Set its name and schedule; **Time and activity** lets you choose an all-day observance, fast, or one of your selected ceremonies.
+
+Choose **Use holy day**, then **Review faith**. This step is optional. Dates use the real-world server timezone, shown on screen. See [holy days](../players/holy-days.md) for attending and [calendar setup](people-and-places.md#plan-a-holy-day) for more options.
+
+## 7. Review and create
+
+Check the summary. Use its **Edit** buttons to revisit a section, then select **Create faith**.
+
+You become its founder. Choose **Open faith** to try it as a member, or **Advanced settings** to keep building.
+
+<!-- Screenshot: final Review showing chosen food rules, ceremony and holy day. -->
+
+??? tip "Saving and going back"
+
+    Nothing is created until the final **Create faith**. Back keeps your choices inside the guide. Cancelling or disconnecting discards the unfinished setup. Optional sections can stay empty; selecting a symbol alone adds no teachings, ceremonies or holidays.
+
+    If creation is unavailable, check that you have left your previous faith and that the server allows you to create one. A founder with other members must choose a successor before leaving.
+
+Next: [Modify your faith](modify-faith.md) · [Invite people](people-and-places.md#invite-someone)

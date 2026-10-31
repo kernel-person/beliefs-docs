@@ -33,11 +33,11 @@ Choose a tradition—or make something of your own.
 <div class="guide-grid" markdown>
 
 <div class="guide-card" markdown>
-### Start playing
+### Join and practise
 Your everyday home is `/faith`.
 
-- [Find and join a faith](players/getting-started.md)
-- [Make your first prayer](players/prayer.md)
+- [Join or leave a faith](players/join-faith.md)
+- [How to pray](players/prayer.md)
 - [Check what you can eat](players/food.md)
 </div>
 
@@ -45,8 +45,10 @@ Your everyday home is `/faith`.
 ### Build a family
 Relationships begin with consent.
 
-- [Propose with a ring](players/marriage.md)
-- [Arrange an adoption](players/adoption.md)
+- [How to marry](players/marriage.md)
+- [How to divorce](players/divorce.md)
+- [How to adopt](players/adoption.md)
+- [End an adoption](players/end-adoption.md)
 - [Explore your family tree](players/family-tree.md)
 </div>
 
@@ -54,21 +56,24 @@ Relationships begin with consent.
 ### Lead a faith
 Shape its customs in `/faith settings`.
 
-- [Create your community](leaders/create-faith.md)
+- [How to create a faith](leaders/create-faith.md)
+- [Modify your faith](leaders/modify-faith.md)
 - [Set teachings and food rules](leaders/teachings-and-food.md)
 - [Design a ceremony](leaders/ceremonies.md)
 </div>
 
 <div class="guide-card" markdown>
-### Run a server
-Choose which powers and limits fit your world.
+### Worship together
+Follow the next step in the world.
 
-- [Install and configure](server/installation.md)
-- [Connect Heirloom](server/heirloom.md)
-- [Back up and update](server/updating.md)
+- [Join a ceremony](players/ceremonies.md)
+- [Follow the holy-day calendar](players/holy-days.md)
+- [Understand your deeds](players/your-life.md)
 </div>
 
 </div>
+
+Running a server? Start with [installation](server/installation.md), [configuration](server/configuration.md), and [backups](server/updating.md).
 
 ## New to the world?
 

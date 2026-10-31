@@ -1,28 +1,39 @@
-# Prayer
+# How to pray
 
-Start or join a prayer ceremony, then hold sneak and stand still. A joined ceremony starts listening when its prayer step begins; ordinary crouching outside a ceremony does nothing.
+**Open `/faith` → Prayer → Begin prayer**, then hold sneak and stand still.
 
-## Offer a prayer
+## Pray in the world
 
-1. Open `/faith` and choose **Prayer**.
-2. Read the requirements and any remaining wait, then choose **Begin prayer**. You can also use `/faith pray`.
-3. Hold sneak and stand still. By default, each prayer action needs **3 seconds**. Moving or releasing sneak resets the current hold.
-4. Follow the next instruction and stay nearby until the ceremony finishes. A completed action may still be waiting for the ceremony's minimum time or other participants.
+1. Choose **Prayer** in `/faith`. Check any requirements or red cooldown message.
+2. Select **Begin prayer**. The dialog closes and the action bar tells you what to do.
+3. **Hold sneak without moving.** The shimmering bar appears while you pray. A prayer hold takes **3 seconds** by default; moving or releasing sneak resets that hold.
+4. Follow any next step, then stay nearby until you receive the completion message.
 
-If you already joined a ceremony, simply follow its prayer prompt—there is no second **Begin prayer** action.
+<!-- Screenshot: the in-world prayer action bar while a player holds sneak. -->
 
-The standard prayer has a **10-second minimum** and a **5-minute cooldown**. Your faith can change its actions, timing, participants and location requirements. The screen shows those rules.
+Already in a ceremony? When its prayer step begins, just hold sneak and stay still—there is no second button to press. Ordinary crouching outside an active prayer does nothing.
 
-## Optional directional blessing
+The **Prayer** shortcut in `/faith guide` starts the activity directly. `/faith pray` is also available.
 
-Some faiths enable an additional blessing for facing their registered holy place. Ordinary prayer still works without that bonus.
+## If you cannot begin
 
-Open **Ceremonies → Holy place** to check the destination. Hold an ordinary compass and choose **Bind compass** to point it there. During prayer, hold sneak while facing the holy place in the same world and follow the separate **Blessing** progress.
+- **On cooldown:** wait for the displayed time. Reopening the page checks the current wait.
+- **Needs a priest or temple:** meet the requirements shown for this faith's prayer.
+- **No prayer ceremony:** the founder must add one. Agnostic has no prayer of its own.
+- **Another step comes first:** open **Ceremonies**, choose the ceremony and follow its steps.
 
-By default this needs **10 seconds** of facing and grants **Speed I for 30 seconds**, with a separate **5-minute bonus cooldown**. Server settings may change it. An existing effect of the same type is not replaced or extended.
+A full bar completes a prayer action. The ceremony can still be waiting for another participant or its minimum duration. Reopen your sacred book or `/faith` to see the current instruction.
 
-??? tip "Prayer is unavailable or progress stopped"
+<span id="optional-directional-blessing"></span>
 
-    Agnostic has no prayer ceremony. Other faiths may require clergy or a registered temple. If prayer is not the next ceremony step, open **Ceremonies → Nearby / active** and follow its instructions. A missing holy place or a bonus cooldown does not block ordinary prayer. Keep sneak held, stay nearby and wait for the completion message.
+??? info "Facing a holy place"
 
-Closing a menu does not stop worship. Use **Stop worship** in the active view or `/faith cancel`; this cancels the shared ceremony for everyone involved. See [Ceremonies](ceremonies.md).
+    Some faiths offer an extra blessing for praying toward their holy place. Open **Ceremonies → Holy place**; hold an ordinary compass and select **Bind compass** to find its direction.
+
+    During prayer, face that place in the same world and keep holding sneak. The separate **Blessing** progress shows this optional hold. A missing destination or blessing cooldown never blocks ordinary prayer.
+
+    Default bonus: a 10-second hold, Speed I for 30 seconds, then a 5-minute bonus cooldown. Your server can change these settings.
+
+To stop, open **Ceremonies → Nearby / active → Stop worship**, or use `/faith cancel`. This cancels the shared ceremony for everyone involved. Closing the book alone does not cancel it.
+
+[Follow a ceremony](ceremonies.md) · [Read your life record](your-life.md)

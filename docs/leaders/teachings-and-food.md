@@ -1,38 +1,48 @@
 # Set teachings and food rules
 
-The founder controls these choices through `/faith settings`. Teachings determine how deeds affect standing. Food rules determine which foods the faith permits.
+**Start here:** `/faith settings`. Only the founder edits these rules. Members read them through `/faith`.
+
+Teachings set the reward or penalty for a deed. Food rules decide what followers may eat.
 
 ## Add a teaching
 
-1. Open **Teachings** → **Add teaching**.
-2. Choose an action, such as prayer, eating, killing, or fasting.
-3. Choose its target when offered: a particular creature, food, ceremony, or completed/broken fast. Use the general option to cover matching events broadly.
-4. Set the standing change and explain why the deed matters.
-5. Select **Save**.
+1. Choose **Teachings → Add teaching**.
+2. Pick the action you want to judge, such as prayer, eating or killing.
+3. Choose a target if needed. For example, select a creature, a particular food or one of your ceremonies. The general option covers any matching event.
+4. Move the **Standing** slider left for a penalty or right for a reward. Write a short explanation in **Why this deed matters**.
+5. Choose **Save**.
 
-Negative values penalize standing; positive values reward it. Only negative teachings can be marked **Serious transgression**. The default server limit is −20 to +20 per teaching.
+For example, a prayer teaching with **+1** rewards each matching completed prayer. New deeds use the saved rule; past deeds keep their original scores.
 
-Selecting targets and moving through the editor keeps a draft. **Cancel** discards it. Open an existing teaching to edit it, or choose **Remove** and confirm removal.
+<!-- Screenshot: New teaching editor with a selected target, Standing slider and Save visible. -->
 
-New player-founded faiths include starter teachings: prayer gives +1 standing, a food violation gives −5, and killing a player gives −20 with a serious transgression. Review these defaults before inviting people.
+## Change or remove a teaching
 
-## Choose permitted foods
+Open **Teachings** and select the existing entry. Adjust its standing change or explanation, then **Save**. Its action and target stay fixed; create a different teaching if you need a different target. **Remove** asks for confirmation.
 
-Open **Food rules** and use these tabs:
+**Change action** is available while creating a teaching. It keeps your explanation and points but clears an incompatible target. To abandon the edit, use **Back** without saving.
 
-| Tab | What a founder changes |
-| --- | --- |
-| **Foods** | Explicit bans on individual foods |
-| **Ingredients** | Bans on ingredients |
-| **Diets** | Dietary requirements and the listed food restrictions |
-| **Rules** | Review and remove active rules |
+## Set food rules
 
-**Food tiles apply changes immediately.** Read the tile's action before clicking. Removing an individual ban can leave the food forbidden by another rule. The food-rules name is a label; naming it “Vegetarianism” does not enable a diet.
+1. Open **Food rules**, then **Diets**.
+2. Select the requirements you want: **Vegetarian**, **Vegan**, **No pork**, **No beef**, **No alcohol** or **Gluten-free**. You can combine them.
+3. Use **Foods** for individual food bans, or **Ingredients** for ingredient bans. Search to narrow the item grid.
+4. Open **Rules** to review what is active and remove anything you no longer want.
 
-New player-founded faiths start without food restrictions. When [optional Heirloom integration](../server/installation.md) is available, the catalogue can include its foods and ingredient information. Some dishes depend on their actual ingredients; unknown information is shown as uncertain.
+**These food-grid changes apply immediately.** There is no final Save button. The food grid inside [Create a faith](create-faith.md) is different: its choices remain a draft until you create the faith.
 
-??? note "Specific teachings and future deeds"
+Click the name tag to rename the dietary rules, then **Save**. This only changes the name; calling them “Vegetarianism” does not enable the vegetarian preset.
 
-    A teaching for a specific target takes priority over the general teaching for that action. Removing a teaching changes how future deeds are evaluated. Food restrictions and the standing penalty for violating them are separate settings.
+<!-- Screenshot: Food rules, Diets tab, showing selected presets and the Foods/Ingredients/Rules tabs. -->
 
-Point members to [food and fasting](../players/food.md) and [prayer](../players/prayer.md).
+??? tip "A food stays forbidden after removing its ban"
+
+    Rules combine. Another ingredient ban or dietary requirement may still forbid it. Hover over the food to see the reason. Heirloom dishes can depend on their actual ingredients. Missing information alone causes no food-rule penalty; check whether the item is marked **Unknown**.
+
+??? note "Scoring and starter choices"
+
+    The creation guide adds only the ceremonies and food rules you choose. Prayer results add a +1 prayer teaching; worship-service results add +5 for services. Selecting food restrictions adds a −5 food-violation teaching, subject to server limits. There is no automatic player-killing penalty in this guided flow.
+
+    Food restrictions and their violation score are separate. Review **Teachings** if you want to change the penalty. The default teaching range is −20 to +20; only negative teachings can be marked **Serious transgression**. A specific target takes priority over the general teaching for the same action.
+
+For the member's view, see [Check food rules](../players/food.md).

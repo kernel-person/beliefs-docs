@@ -1,49 +1,60 @@
-# Ceremonies
+# How to take part in a ceremony
 
-Open **/faith → Ceremonies** to see what your faith offers. Each ceremony shows its result, timing, steps and requirements.
+A ceremony is a sequence of actions performed together: gathering, praying, sharing food, making offerings or receiving a blessing. Your faith decides which ones it offers.
 
 ## Start or join
 
-1. Choose a ceremony and read its requirements. Bring required items; enter a temple or find clergy if required.
-2. Choose **Start ceremony**, or open **Nearby / active** and choose **Join · [ceremony name]** for a gathering near you.
-3. Follow the world guidance. Reopen **Nearby / active** for the current step, people and timer.
-4. Stay in the ceremony area until completion. Finishing the actions does not skip the minimum time.
+1. Open **/faith → Ceremonies** and choose a ceremony beneath its category heading.
+2. Check what it needs: people, items and, sometimes, clergy or a temple.
+3. Choose **Start ceremony**. The dialog closes; follow the instructions in the world.
+4. Other people join through **Ceremonies → Nearby / active → Join · [ceremony name]**.
+5. Complete the steps in order and remain nearby until the completion message.
 
-Merely standing nearby does not join a ceremony.
+<!-- Screenshot: the ceremony list, with its gold category headings and a selected ceremony. -->
 
-| Step | What to do |
+Standing nearby does not join automatically. You may join another faith's gathering without changing your own faith.
+
+Reopen `/faith` or your sacred book to see your current activity and any blockers. **Nearby / active** shows the detailed status.
+
+## Follow the current step
+
+| Instruction | What to do |
 | --- | --- |
-| Gather | Enough nearby people must explicitly join. |
-| Pray | Hold sneak and stand still when this step begins. No command is needed. See [Prayer](prayer.md). |
-| Offer | Throw the requested item with your drop key. It floats as the progress bar fills; punch your offering to cancel and recover it. |
-| Consume | Close the screen and eat or drink the requested item normally. |
-| Bless | Choose **Bless**; follow the shown item and clergy requirements. Blessing and forgiveness use the hosting faith's holy water. |
-| Stay underwater | Each joined recipient stays fully underwater for the shown continuous time. The leader stays nearby. |
+| **Gather** | Wait for enough people to choose **Join**. |
+| **Pray** | Hold sneak and stand still. [Prayer guide](prayer.md). |
+| **Offer** | Hold the requested item and throw it with your drop key. It floats while the bar fills. Punch your floating offering to cancel and recover it. |
+| **Consume** | Eat or drink the requested item normally. Throwing it does not count. |
+| **Bless** | Use the **Bless** link in chat or the active ceremony view. Hold any required item; some ceremonies require the priest to do this. |
+| **Stay underwater** | Keep your head underwater for the displayed time. The leader stays nearby and can remain dry. |
 
-Prayer, offering, consumption and blessing amounts are group totals. **Stay underwater** shows seconds for each recipient. Only the needed offering amount is reserved; it remains refundable until the whole ceremony completes.
+Offering, consumption, prayer and blessing counts are shared by the group. Underwater time is completed separately by each recipient.
 
 ## Baptism
 
-When your faith offers **Baptism**, a priest starts it beside water. Join through **Ceremonies → Nearby / active → Join · Baptism**; standing in the water alone does not join.
+For the **Baptism** example, a priest starts the ceremony beside water, then the recipients join through **Nearby / active**.
 
-Each recipient stays fully underwater for five continuous seconds by default. Your shimmering progress bar tracks your own hold; surfacing resets unfinished progress. The priest can stay beside the water. After your hold completes, remain nearby until everyone finishes. New participants cannot join after an underwater step is completed.
+1. Join before the underwater step is completed.
+2. Go fully underwater when prompted. Your own progress bar fills; surfacing resets an unfinished hold.
+3. Once your hold finishes, stay nearby while the other recipients finish.
 
-The faith can change the required time. Baptism records a service under normal teaching rules and does not change your faith membership.
+The example uses **five continuous seconds** underwater and needs a priest plus at least one recipient. A founder can customize those requirements. Baptism records a service; it does not change your faith membership.
+
+<!-- Screenshot: a baptism participant's underwater progress, with the priest beside the water. -->
 
 ## Fasting and community gatherings
 
-In **Nearby / active**, choose **Fast · [duration]** to begin a voluntary fast. Stay online without consuming food or drink. Consumption breaks the fast; the faith's teachings determine its score. A completed fast has a 30-minute cooldown by default.
+To fast, open **Nearby / active → Fast · [duration]**. Stay online without eating or drinking until it completes. Eating, drinking or logging out ends the fast; its effect on your life record follows your faith's teachings.
 
 **Nearby remembrances** finds gatherings for [completed lives](your-life.md#remember-a-completed-life).
 
 ## Holy days
 
-**Ceremonies → Holy days**, or `/faith calendar`, lists upcoming occasions in the displayed real-world timezone. Select an occasion to read it; **Back** returns to the same calendar page.
+Use **Ceremonies → Holy days** to see planned dates and activities. See [How to follow holy days](holy-days.md).
 
-An **All day** observance marks a date for reflection and community. It starts no ceremony or fast and awards no rewards. For a scheduled activity happening now, members can choose **Start ceremony** or **Begin voluntary fast**; normal requirements and cooldowns still apply.
+??? tip "The ceremony is waiting, or you want to cancel"
 
-The bundled faith examples include Catholic Easter, Christmas and All Saints, the two Islamic Eids, and Vesak. Eid entries name the Umm al-Qura calendar because local dates can differ. **Vesak (Singapore)** follows published Singapore dates; your community can choose another regional calendar. Your server's leaders can change these entries.
+    Check the next step, people count and remaining time. Completed actions do not skip the minimum duration. Stay alive, online and inside the ceremony area; leaving can cancel the gathering.
 
-??? tip "A ceremony will not finish, or you need to stop"
+    **Stop worship** in **Nearby / active**, or `/faith cancel`, cancels your ceremony for the group and stops your fast. Closing a dialog does not stop worship. Reserved offerings are refunded on cancellation; food already eaten is not restored.
 
-    Check the current step, participant count, timer and cooldown. Everyone must remain online, alive and within the ceremony area. Leaving that area, disconnecting or a relevant faith change can cancel the gathering. Closing the screen keeps it running. **Stop worship** or `/faith cancel` cancels your active ceremony for the group and stops your fast. Reserved offerings are returned on cancellation; already consumed items are not restored.
+[How to pray](prayer.md) · [Design a ceremony](../leaders/ceremonies.md)

@@ -24,4 +24,4 @@ Open **Your life → Memorials**, select a completed life and optionally write a
 
     Your first completed life appears after death. If a completed remembrance is awaiting delivery, use **Collect head** with that life selected. Each memorial head can be collected once.
 
-Leaving a faith preserves your history and [family](family-tree.md). See [Getting started](getting-started.md#change-faith) for the switching steps.
+Leaving a faith preserves your history and [family](family-tree.md). See [Leave or switch faith](join-faith.md#leave-or-switch-faith) for the steps.

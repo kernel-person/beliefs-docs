@@ -16,7 +16,7 @@ Existing configuration files are retained on upgrades. These tables are generate
 
 | Setting | Default |
 | --- | --- |
-| `agnostic.head-texture` | `"http://textures.minecraft.net/texture/910e92e0258d70ec132b69664f5f7f292bfec7e0f727685a1d7970d12249"` |
+| `agnostic.head-texture` | `"http://textures.minecraft.net/texture/c5a63b7f4edd66aabfe5e6ecac1046fe9cd379270a06340c59dc888bf143d791"` |
 
 ## Marriage ring
 
@@ -93,13 +93,47 @@ Existing configuration files are retained on upgrades. These tables are generate
 | `worship.directional-prayer.effect` | `"SPEED"` |
 | `worship.directional-prayer.effect-seconds` | `30` |
 
+## Menu feedback
+
+| Setting | Default |
+| --- | --- |
+| `menu-feedback.enabled` | `true` |
+| `menu-feedback.volume` | `0.22` |
+
+## Holy feedback
+
+| Setting | Default |
+| --- | --- |
+| `holy-feedback.sounds.enabled` | `true` |
+| `holy-feedback.sounds.volume` | `0.45` |
+| `holy-feedback.particles.enabled` | `true` |
+| `holy-feedback.particles.max-active` | `24` |
+| `holy-feedback.particles.points-per-frame` | `64` |
+
+## Temple guidance
+
+| Setting | Default |
+| --- | --- |
+| `temple-guidance.particles` | `true` |
+| `temple-guidance.sounds` | `true` |
+| `temple-guidance.volume` | `0.55` |
+| `temple-guidance.duration-seconds` | `5` |
+
+## Temple entry
+
+| Setting | Default |
+| --- | --- |
+| `temple-entry.enabled` | `true` |
+| `temple-entry.sounds` | `true` |
+| `temple-entry.volume` | `0.3` |
+
 ## Full default file
 
 ```yaml
 examples:
   enabled: true
 agnostic:
-  head-texture: http://textures.minecraft.net/texture/910e92e0258d70ec132b69664f5f7f292bfec7e0f727685a1d7970d12249
+  head-texture: http://textures.minecraft.net/texture/c5a63b7f4edd66aabfe5e6ecac1046fe9cd379270a06340c59dc888bf143d791
 marriage-ring:
   recipe:
     enabled: true
@@ -165,4 +199,24 @@ worship:
     bonus-cooldown-seconds: 300
     effect: SPEED
     effect-seconds: 30
+menu-feedback:
+  enabled: true
+  volume: 0.22
+holy-feedback:
+  sounds:
+    enabled: true
+    volume: 0.45
+  particles:
+    enabled: true
+    max-active: 24
+    points-per-frame: 64
+temple-guidance:
+  particles: true
+  sounds: true
+  volume: 0.55
+  duration-seconds: 5
+temple-entry:
+  enabled: true
+  sounds: true
+  volume: 0.3
 ```

@@ -1,48 +1,56 @@
 # Design and lead ceremonies
 
-Founders design rituals in `/faith settings` → **Ceremonies**. Members use the faith's ordinary **Ceremonies** view to read requirements and join. A ritual can allow any member to lead or require clergy.
+**Start here:** `/faith settings → Ceremonies`. The founder designs rituals; their settings decide whether a member or clergy must lead them.
 
-## Create a ritual
+A ritual is a sequence of actions followed by a result. For example: gather two people, share bread, then record a worship service.
 
-1. Choose **New ritual** and an example: **Simple prayer**, **Shared meal**, **Baptism**, **Rain prayer**, **Blessing**, **Holy water**, or **Custom ritual**.
-2. Enter its name and **Minimum people, leader included**.
-3. Use **Change result** to choose what completion does. The preview explains the result and requirements.
-4. Choose **Add step**, configure its action and amount, then select **Add step to draft**. Select an existing step to edit or reorder it.
-5. Review **More settings**, then select **Save ritual**.
+## Create a ritual from an example
 
-Choosing an example creates only a draft. **Save ritual** saves the settings and steps together. Finish or discard an open step before saving. **Back** inside a step or settings screen keeps the ritual draft; **Cancel** on the main editor discards unsaved edits.
+1. Choose **New ritual**, then an example: **Simple prayer**, **Shared meal**, **Baptism**, **Rain prayer**, **Blessing** or **Holy water**. Use **Custom ritual** to start your own sequence.
+2. Give it a name and set **Minimum people, leader included**.
+3. Read its **Result** and numbered steps. Select a step to adjust it, or use **Change result** if you want a different outcome.
+4. Open **More settings** to set the minimum length, repeat wait, clergy requirement and temple requirement.
+5. Choose **Save ritual**.
 
-## Choose actions and limits
+Examples are optional. Choosing one creates a draft; it is not available to members until you save it. Ceremonies selected in the [faith creator](create-faith.md) are already saved when the faith is created.
 
-Prayer, offering, consumption and blessing amounts are shared group totals. **Stay underwater** uses continuous seconds for each recipient:
+<!-- Screenshot: Ritual editor with Result, numbered steps, More settings and Save ritual visible. -->
+
+## Change the steps
+
+Choose **Add step**, select its action, then set the amount. **Choose item** appears when an item is needed. Finish with **Add step to draft**.
+
+To change an existing step, click it and choose **Update step in draft**. **Move earlier**, **Move later** and **Remove step** change its place in the draft. Finish with **Save ritual** to apply the whole sequence.
 
 | Action | What participants do |
 | --- | --- |
-| **Gather** | Nearby people join the ceremony |
-| **Pray** | Hold sneak and stand still when the step begins |
-| **Offer** | Throw the selected item; punch the floating offering to cancel |
-| **Consume** | Eat or drink the selected item normally |
-| **Bless** | Choose **Bless**, meeting the clergy and item requirements |
-| **Stay underwater** | Each joined recipient except the leader stays fully underwater for 1–300 continuous seconds |
+| **Gather** | Nearby people join; the amount includes the leader. |
+| **Pray** | Hold sneak and stand still when prompted. |
+| **Offer** | Throw the selected item. Punch the floating offering to cancel it. |
+| **Consume** | Eat or drink the selected item normally. |
+| **Bless** | Choose **Bless**, meeting its clergy and item requirements. |
+| **Stay underwater** | Each recipient except the leader stays fully underwater for the chosen continuous seconds. |
 
-**More settings** controls minimum duration, repeat wait, clergy leadership/blessing, and registered-temple requirements. Server limits still apply: by default, rituals last at least five seconds and weather ceremonies need at least three participants. The [configuration reference](../reference/configuration.md) covers additional limits.
+Prayer, offering, consumption and blessing amounts are group totals. **Stay underwater** applies separately to every recipient; surfacing resets an unfinished hold.
 
-Blessing and forgiveness results require a **Bless** step using this faith's holy water. Check the preview before telling members what to bring.
+??? note "Drafts, limits and requirements"
+
+    Switching the step action rebuilds its controls and clears an incompatible item choice. **Back** keeps unfinished step input; **Discard step changes** abandons that step edit. Finish or discard an open step before saving the ritual. To abandon the ritual edit, back out without saving.
+
+    A ritual can have up to 16 steps. Server limits and enabled results still apply. Blessing and forgiveness results require a **Bless** step using the faith's holy water. Save changes before using **Start ceremony**.
 
 ## Add baptism
 
-New player-created faiths include **Baptism**. For a saved faith, open **Settings → Ceremonies → New ritual → Baptism**, then **Save ritual**. The starter requires a priest and at least one recipient, with a five-second underwater hold and no temple requirement. Select its **Stay underwater** step to change the duration.
+1. Choose **New ritual → Baptism**.
+2. Select **Stay underwater** to change the hold length if wanted.
+3. Check **More settings**, then **Save ritual**.
 
-The priest starts beside water, and recipients explicitly join through **Ceremonies → Nearby / active**. Each recipient has their own shimmering progress bar; surfacing resets an unfinished hold. The priest stays nearby while all recipients complete their holds. Joining closes after an underwater step is completed, so gather everyone first.
+The example requires a priest and at least one recipient, uses a five-second underwater hold, and does not require a temple. The priest starts beside water; recipients join through **Ceremonies → Nearby / active**. Gather everyone before completing the underwater step, because joining closes afterward.
 
-You can add **Stay underwater** to any custom ritual. It requires at least two people, including the leader, and does not use an item. Baptism uses the **Worship service** result and normal teaching rules; it does not change anyone's faith membership.
+Baptism records a worship service; it does not change anyone's faith membership. **Stay underwater** can also be used in custom rituals, with at least two people including the leader.
 
-## Lead a gathering
+## Lead the saved ceremony
 
-Save changes first, then choose **Start ceremony**. Invite participants to use **Ceremonies** → **Nearby / active** and follow the in-world guidance. See the [participant guide](../players/ceremonies.md) for completion, items, and cooldowns.
+Choose **Start ceremony** when ready. Invite people to join through **Ceremonies → Nearby / active**, then follow the in-world prompts. See [Take part in ceremonies](../players/ceremonies.md) for the participant steps.
 
-Marriage and adoption have their own consent workflows under **Families** in `/faith settings`. Use [marriage](../players/marriage.md) and [adoption](../players/adoption.md) when officiating those events.
-
-??? note "Advanced design"
-
-    A ritual supports up to 16 steps. The server can disable individual outcomes and restrict weather effects by world and cooldown. Scheduling a ritual as a holy day does not bypass those rules.
+[Marriage](../players/marriage.md) and [adoption](../players/adoption.md) use their own consent requests. **Plan ceremony** in those flows is optional; they are not ordinary ritual-editor steps.

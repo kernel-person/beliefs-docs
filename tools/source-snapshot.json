@@ -1,8 +1,8 @@
 {
   "plugin_version": "0.1.0-SNAPSHOT",
   "sources": {
-    "config.yml": "6e27a811fa67c9e146f86ab9a2e3d0fd2877d347b3ad206f033cf52ad9f61366",
-    "plugin.yml": "bbea65a49d20cc09e47be3fe93ecff91a44973001a55c87020d5024da20a24e5",
+    "config.yml": "ccfb4db162b28781f5d51aa4c02d6f7abc3f2f7c1b0462572c8780887062c449",
+    "plugin.yml": "0632f31ff3b86cac08c4abdfed0de3d8b4e1a03c56f16dc29b46b6df00eb32eb",
     "symbols.yml": "b41f05e8a0bb8a73a3b12779546365e96f85eddd82a17e1cf1ae225fcf44df11"
   },
   "configuration": {
@@ -10,7 +10,7 @@
       "enabled": true
     },
     "agnostic": {
-      "head-texture": "http://textures.minecraft.net/texture/910e92e0258d70ec132b69664f5f7f292bfec7e0f727685a1d7970d12249"
+      "head-texture": "http://textures.minecraft.net/texture/c5a63b7f4edd66aabfe5e6ecac1046fe9cd379270a06340c59dc888bf143d791"
     },
     "marriage-ring": {
       "recipe": {
@@ -91,6 +91,32 @@
         "effect": "SPEED",
         "effect-seconds": 30
       }
+    },
+    "menu-feedback": {
+      "enabled": true,
+      "volume": 0.22
+    },
+    "holy-feedback": {
+      "sounds": {
+        "enabled": true,
+        "volume": 0.45
+      },
+      "particles": {
+        "enabled": true,
+        "max-active": 24,
+        "points-per-frame": 64
+      }
+    },
+    "temple-guidance": {
+      "particles": true,
+      "sounds": true,
+      "volume": 0.55,
+      "duration-seconds": 5
+    },
+    "temple-entry": {
+      "enabled": true,
+      "sounds": true,
+      "volume": 0.3
     }
   },
   "permissions": {
@@ -102,6 +128,14 @@
     },
     "beliefs.admin": {
       "default": "op"
+    },
+    "beliefs.towny.manage.town": {
+      "description": "Propose or approve a holy city for your own Towny town.",
+      "default": false
+    },
+    "beliefs.towny.manage.nation": {
+      "description": "Set the official faith of your own Towny nation.",
+      "default": false
     }
   },
   "symbols": [
