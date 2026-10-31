@@ -1,8 +1,6 @@
 # How to follow holy days
 
-**Open `/faith` → Ceremonies → Holy days**, or run `/faith calendar`.
-
-Holy days are occasions your faith's leaders put on its calendar. They follow **real-world dates in the displayed server timezone**, not Minecraft days.
+Open `/faith` → **Ceremonies → Holy days**, or run `/faith calendar`. Your faith's calendar uses real-world dates in the displayed server timezone.
 
 ## Find the next gathering
 
@@ -13,7 +11,7 @@ Holy days are occasions your faith's leaders put on its calendar. They follow **
 
 <!-- Screenshot: the calendar and an occasion showing its next date, timezone and activity. -->
 
-A scheduled date does not start worship for you. You still choose to take part, and the usual priest, temple, item and cooldown requirements apply.
+You choose whether to take part. Scheduling does not bypass priest, temple, item or cooldown requirements.
 
 ## What does the schedule mean?
 
@@ -22,13 +20,13 @@ A scheduled date does not start worship for you. You still choose to take part, 
 - **New moon, full moon, equinox or solstice:** uses the real-world event's date in the server timezone. A timed activity begins at its chosen local time on that date.
 - **Named religious calendar:** follows the particular calendar named in the entry. Regional observances may differ.
 
-Generic moon and seasonal dates do not automatically represent a particular religious festival. Read the occasion your community has chosen.
+A moon or seasonal date is not automatically a religious festival; check what your community has scheduled.
 
 The optional example calendars include Catholic Easter and Christmas, Islamic Eids using **Umm al-Qura**, and **Vesak (Singapore)**. Leaders can change these examples to match their community.
 
 ??? tip "No holy days planned, or no Start button"
 
-    An empty calendar means there are no upcoming occasions to show. Ask your founder or clergy to add one.
+    An empty calendar has no upcoming occasions. Ask your founder or clergy to add one.
 
     A future activity cannot start from its calendar entry yet; **All day** observances have no Start button. To join a ceremony happening nearby, use **Ceremonies → Nearby / active**.
 

@@ -20,7 +20,7 @@ Check the [permission reference](../reference/permissions.md), then the player's
 
 For server-owned faiths, use `/faithadmin clergy <faith> <player> true` after the player joins. Agnostic has no clergy.
 
-For a marriage or adoption, open `/faith pending`. Every required participant must consent, the request must still be valid, and an authorized officiant who is not a participant must complete it with the participants nearby. Marriage also needs its recorded ring giver online with a Marriage Ring.
+For a marriage or adoption, open `/faith pending`. Ordinary requests complete when everyone accepts, provided the request is still valid. Marriage also needs its recorded ring giver online with a Marriage Ring. Only **Plan ceremony** requests need an authorized, non-participating priest to complete them with everyone nearby.
 
 ## Prayer or a ceremony will not progress
 

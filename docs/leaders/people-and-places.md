@@ -1,6 +1,6 @@
 # Manage people, places and holy days
 
-**Start here:** `/faith settings`. Founders and clergy can invite people, register places and manage the calendar. Only founders appoint clergy or transfer leadership.
+Open `/faith settings` as founder or clergy. Both roles can invite people, register places and manage the calendar; only founders appoint clergy or transfer leadership.
 
 ## Invite someone
 
@@ -8,7 +8,7 @@
 2. Enter part of their name and choose **Search**.
 3. Choose **Invite [name]** beside their head. The invitation sends immediately.
 
-The same list shows members, applicants and invited players. Select an applicant for **Approve** or **Decline**, or an invitee for **Withdraw**. Players must have visited the server to appear here.
+The list includes members, applicants and invitees. Select an applicant to **Approve** or **Decline**, or an invitee to **Withdraw** the invitation. Only players who have visited the server appear.
 
 To appoint clergy, select a member and choose **Make clergy**. Use **Remove clergy** to remove that role. The founder sets how people join under **Identity → Membership**.
 
@@ -22,7 +22,7 @@ To appoint clergy, select a member and choose **Make clergy**. Use **Remove cler
 2. Open **Temples**, enter its name and radius in blocks, then choose **Create temple here**.
 3. Share the temple's name. Members can select it in the temple list for in-world directions.
 
-A temple is an area for communal ceremonies. A ceremony needs one only when its **Must be in a registered temple** setting is enabled. The default radius is 12 blocks, with a server maximum of 64.
+Ceremonies need a temple only when **Must be in a registered temple** is enabled. The default radius is 12 blocks; the default server maximum is 64.
 
 ## Set a holy place
 
@@ -46,18 +46,18 @@ The founder can toggle **Bonus: off** to **Bonus: on** for an optional [directio
 
 <!-- Screenshot: Calendar editor showing a weekly gathering's next occurrence and Schedule/Time and activity controls. -->
 
-Schedules include once, weekly, monthly, yearly, new/full moons, equinoxes, solstices, Western Easter and the named Umm al-Qura Eid dates. They follow **real-world time in the displayed server timezone**, not Minecraft days. Hover over a schedule choice to preview it.
+Schedules include once, weekly, monthly, yearly, new/full moons, equinoxes, solstices, Western Easter and the named Umm al-Qura Eid dates. Hover for a preview. Dates use real-world time in the displayed server timezone.
 
-Scheduling does not start a ceremony or fast automatically. Members choose to take part; normal requirements and cooldowns still apply. An all-day observance is a calendar entry without a gameplay reward.
+Members must choose to start scheduled ceremonies or fasts, with the usual requirements and cooldowns. All-day observances have no gameplay reward.
 
 ??? tip "Choose the right calendar rule"
 
-    Monthly dates skip months without that day: the 31st does not become the 28th. Lunar and seasonal rules use the estimated astronomical date in your server timezone; a timed activity runs at your chosen local time on that date. These estimates support 1900–2100.
+    A monthly date skips months that lack it: the 31st does not become the 28th. Lunar and seasonal rules estimate the event's date in your server timezone, for years 1900–2100. Activities start at your chosen local time that day.
 
-    A full moon is not automatically a particular religious festival. Regional observances may also differ from a calculated calendar. Use **Once** for a specific locally announced date.
+    A full moon does not automatically represent a religious festival. For a regional observance, use **Once** with its locally announced date.
 
 ??? note "Unfinished edits and removal"
 
     **Back** keeps an unfinished calendar entry under **Continue draft**. **Save** is required for changes to an existing day. **Remove** asks for confirmation and removes its future repeats too. If a linked ceremony was deleted, choose another activity.
 
-See [Holy days](../players/holy-days.md) for the participant's view.
+[Members' holy-day guide](../players/holy-days.md)

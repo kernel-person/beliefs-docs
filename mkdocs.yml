@@ -16,7 +16,6 @@ theme:
     primary: custom
     accent: custom
   features:
-    - navigation.sections
     - navigation.indexes
     - navigation.top
     - search.suggest
@@ -48,18 +47,18 @@ nav:
   - Start here: players/getting-started.md
   - Player guides:
       - Join or leave a faith: players/join-faith.md
-      - How to pray: players/prayer.md
+      - Pray: players/prayer.md
       - Food rules & fasting: players/food.md
       - Join a ceremony: players/ceremonies.md
       - Holy days: players/holy-days.md
-      - How to marry: players/marriage.md
-      - How to divorce: players/divorce.md
-      - How to adopt: players/adoption.md
+      - Marry: players/marriage.md
+      - Divorce: players/divorce.md
+      - Adopt: players/adoption.md
       - End an adoption: players/end-adoption.md
-      - Explore your family tree: players/family-tree.md
+      - Family tree: players/family-tree.md
       - Your life: players/your-life.md
   - Faith leader guides:
-      - How to create a faith: leaders/create-faith.md
+      - Create a faith: leaders/create-faith.md
       - Modify your faith: leaders/modify-faith.md
       - Teachings & food: leaders/teachings-and-food.md
       - Design ceremonies: leaders/ceremonies.md

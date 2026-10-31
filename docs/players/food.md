@@ -1,17 +1,17 @@
 # How to check food rules
 
-**Open `/faith` → Food.** The item grid shows what your faith permits or forbids. A faith's name alone does not tell you its rules.
+Open `/faith` → **Food** to check your faith's rules. Communities with similar names can have different diets.
 
 ## Find a food
 
 1. Stay on the **Foods** tab and select **Search**.
 2. Enter part of the food's name, then choose **Search**.
-3. Hover over the item to read its status and reason. Forbidden foods have **red names and an enchantment shimmer**.
+3. Hover over an item for its status and reason. Forbidden foods have red names and an enchantment shimmer.
 4. Use **Blocked filter** to show only forbidden foods. **Clear search** brings back the full list.
 
 <!-- Screenshot: the food grid with a forbidden item's red name, glint and short hover explanation. -->
 
-Use **Diets** for dietary requirements such as Vegetarian or No pork. **Rules** lists the individual restrictions. This is a reading view; clicking foods here does not change your faith's rules.
+**Diets** shows requirements such as Vegetarian or No pork; **Rules** lists individual restrictions. Clicking foods in this view changes nothing.
 
 | Status | Meaning |
 | --- | --- |
@@ -22,9 +22,9 @@ Use **Diets** for dietary requirements such as Vegetarian or No pork. **Rules** 
 
 ## What happens if you eat a forbidden food?
 
-You can still eat it. Beliefs records a confirmed violation and explains it in chat; your faith's teachings determine the score. **Uncertainty alone causes no food penalty.** Check [Your life](your-life.md) to see recorded deeds.
+You can still eat it. A confirmed violation appears in chat and [Your life](your-life.md); its score depends on your faith's teachings. Uncertainty alone causes no penalty.
 
-With compatible Heirloom support, this guide can include custom dishes and their ingredient facts. A recipe preview is not a guarantee about every serving—mixed dishes can differ.
+With compatible Heirloom support, the guide can include custom dishes and ingredient facts. Mixed dishes can differ from their recipe preview.
 
 ??? tip "A food is missing"
 

@@ -1,14 +1,12 @@
 # How to modify your faith
 
-Use `/faith settings` for management. Use `/faith` to practise the faith and see what your members see.
-
-The **founder** edits beliefs and customs. **Clergy** manage the community tasks available to them; they do not automatically get every founder control.
+Open `/faith settings`. Founders edit beliefs and customs; clergy have community controls such as invitations, places and the calendar.
 
 ## Change the name, joining rules, or symbol
 
-1. Open `/faith settings` → **Identity**.
-2. Choose a category below and make your changes.
-3. Select **Save**. This saves your changes across these categories together.
+1. Choose **Identity**.
+2. Open the category you need below.
+3. Make your changes and select **Save**.
 
 | Category | What you can change |
 | --- | --- |
@@ -18,13 +16,13 @@ The **founder** edits beliefs and customs. **Clergy** manage the community tasks
 | **Scripture** | Sacred book title and text |
 | **Symbol** | Head or item symbol; custom-head entry is optional |
 
-Switching categories keeps the draft. Selecting a symbol also stays in the draft until **Save**. Leaving the editor without saving does not apply those edits.
+**Save** applies your edits across these categories together, including symbol changes. Switching categories keeps the draft; leaving without saving does not apply it.
 
 <!-- Screenshot: Identity editor with its five category buttons and Save. -->
 
 ## Change what followers do
 
-Return to `/faith settings` and choose the relevant tool:
+The other tools in `/faith settings` have separate editors:
 
 | Choose | Use it to… | Guide |
 | --- | --- | --- |
@@ -33,24 +31,24 @@ Return to `/faith settings` and choose the relevant tool:
 | **Ceremonies** | Add examples, edit ordered steps, and set results | [Design ceremonies](ceremonies.md) |
 | **Holy days** | Schedule observances, fasts, or saved ceremonies | [Plan a holy day](people-and-places.md#plan-a-holy-day) |
 
-Teachings, rituals and holy days have their own save actions. **Food-rule tiles apply immediately** in management. In the creation guide, food choices remain a draft until the final creation.
+Teachings, rituals and holy days each need saving. **Food-rule tiles apply immediately** here; only the creation guide keeps food choices as a draft.
 
-A food restriction and its standing penalty are separate: check the food-violation teaching if you want breaking the rule to affect standing.
+Food restrictions and standing penalties are separate. Set a food-violation teaching to score those violations.
 
 ## Organize the community
 
-Use **People** for invitations and applications. The founder can also appoint clergy or transfer leadership. Use **Temples** to register worship areas, and **Holy place** to mark a lodestone destination.
+Use **People** for invitations and applications. Founders can also appoint clergy or transfer leadership.
 
-These places do different jobs: a temple can be required by a ceremony; a holy place can guide compasses and an optional directional-prayer bonus. See [people and places](people-and-places.md).
+**Temples** registers areas that ceremonies can require. **Holy place** marks a lodestone destination for compasses and the optional directional-prayer bonus. See [people and places](people-and-places.md).
 
 ## Check the result as a member
 
-Choose **Practise**, or run `/faith`. Read your teachings and food guide, open a ceremony, and try its instructions in the world. This opens the ordinary member view even when you are the founder.
+Choose **Practise**, or run `/faith`, to see the member view. Check your teachings and food guide, then try a ceremony in the world.
 
 ??? note "Changes, limits, and history"
 
-    Server limits still apply. A facing bonus needs a saved holy place. If an editor says the faith changed while you were editing, reopen it before saving again.
+    Server limits still apply, and the facing bonus needs a saved holy place. If an editor reports that the faith changed, reopen it before saving.
 
-    New teachings affect future actions; previous deeds keep their recorded rules. Changing marriage customs does not dissolve existing marriages. Removing a ceremony can leave a holy day needing a replacement activity.
+    Teachings affect future deeds. Earlier deeds keep their rules, and new marriage customs do not dissolve existing marriages. If you remove a ceremony, check any holy days that use it.
 
-    **Disband** is a separate confirmed action. It returns members to Agnostic while preserving their family and life history.
+    **Disband** asks for confirmation. Members return to Agnostic and keep their family and life history.

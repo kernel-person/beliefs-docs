@@ -1,14 +1,14 @@
 # Your life
 
-Open **/faith → Your life** to see your current life score, standing and scored deeds. If you are Agnostic, `/faith view` opens your affiliation's overview with the same **Your life** link.
+Open `/faith` → **Your life** for your score, standing and deeds. If you are Agnostic, use `/faith view` → **Your life**.
 
 ## Read your record
 
 **Life score** totals this life's deeds for your current faith. **Standing** is your accumulated standing with that faith. The deed list groups scored actions and shows their count and most recent occurrence; it can also retain deeds from a faith you left.
 
-A deed uses the teaching in force when it happened. Later changes to teachings do not rewrite its saved points. Read **Teachings** to understand future actions, and [Food](food.md) for dietary rules.
+Each deed keeps the teaching and points from when it happened. Read **Teachings** for the current rules and [Food](food.md) for dietary restrictions.
 
-After death, choose **Last life** or run `/faith report`. Open a deed to read its explanation, point calculation and faith at the time. A fresh life begins while the completed report remains available.
+After death, choose **Last life** or use `/faith report`. Each deed shows its explanation, calculation and faith at the time. Your new life starts fresh; the old report remains.
 
 ??? info "Judgment and respawning"
 

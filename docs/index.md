@@ -3,16 +3,14 @@ hide:
   - toc
 ---
 
-<div class="beliefs-hero" markdown>
+<div class="beliefs-intro" markdown>
 
-<span class="eyebrow">A guide to Beliefs</span>
+# Beliefs guide
 
-# Faiths, families & shared traditions
+Faiths and families in Minecraft. Open `/faith` in game to get started.
 
-Join a community, create your own beliefs, and build a family history together.
-
-[Start playing](players/getting-started.md){ .md-button .md-button--primary }
-[Install Beliefs](server/installation.md){ .md-button }
+[First time playing?](players/getting-started.md){ .md-button .md-button--primary }
+[Install on a server](server/installation.md){ .md-button }
 
 <div class="symbol-ribbon" aria-label="Some of the available faith symbols">
 <img src="images/symbols/01_latin_cross.png" alt="Latin cross" width="40" height="40">
@@ -23,61 +21,47 @@ Join a community, create your own beliefs, and build a family history together.
 <img src="images/symbols/11_agnostic.png" alt="Agnostic" width="40" height="40">
 </div>
 
-Choose a tradition—or make something of your own.
-{ .quiet }
-
 </div>
 
-## What would you like to do?
+<div class="guide-index" markdown>
 
-<div class="guide-grid" markdown>
-
-<div class="guide-card" markdown>
-### Join and practise
-Your everyday home is `/faith`.
+<section markdown>
+## Playing
 
 - [Join or leave a faith](players/join-faith.md)
-- [How to pray](players/prayer.md)
-- [Check what you can eat](players/food.md)
-</div>
-
-<div class="guide-card" markdown>
-### Build a family
-Relationships begin with consent.
-
-- [How to marry](players/marriage.md)
-- [How to divorce](players/divorce.md)
-- [How to adopt](players/adoption.md)
-- [End an adoption](players/end-adoption.md)
-- [Explore your family tree](players/family-tree.md)
-</div>
-
-<div class="guide-card" markdown>
-### Lead a faith
-Shape its customs in `/faith settings`.
-
-- [How to create a faith](leaders/create-faith.md)
-- [Modify your faith](leaders/modify-faith.md)
-- [Set teachings and food rules](leaders/teachings-and-food.md)
-- [Design a ceremony](leaders/ceremonies.md)
-</div>
-
-<div class="guide-card" markdown>
-### Worship together
-Follow the next step in the world.
-
+- [Pray](players/prayer.md)
+- [Check food rules](players/food.md)
 - [Join a ceremony](players/ceremonies.md)
-- [Follow the holy-day calendar](players/holy-days.md)
-- [Understand your deeds](players/your-life.md)
-</div>
+- [Find the next holy day](players/holy-days.md)
+- [Read your life record](players/your-life.md)
+</section>
+
+<section markdown>
+## Family
+
+- [Marry](players/marriage.md)
+- [Divorce](players/divorce.md)
+- [Adopt](players/adoption.md)
+- [End an adoption](players/end-adoption.md)
+- [Open your family tree](players/family-tree.md)
+</section>
+
+<section markdown>
+## Leading a faith
+
+- [Create a faith](leaders/create-faith.md)
+- [Modify your faith](leaders/modify-faith.md)
+- [Edit teachings and food rules](leaders/teachings-and-food.md)
+- [Design a ceremony](leaders/ceremonies.md)
+- [Manage people and places](leaders/people-and-places.md)
+- [Choose a symbol and scripture](leaders/symbols-and-scripture.md)
+</section>
 
 </div>
 
-Running a server? Start with [installation](server/installation.md), [configuration](server/configuration.md), and [backups](server/updating.md).
+New players start **Agnostic**. You can stay there, join someone else's faith, or create your own. Each community chooses its rules within the server's limits.
 
-## New to the world?
+For server owners: [configuration](server/configuration.md), [Heirloom support](server/heirloom.md), and [updates and backups](server/updating.md).
 
-You start in **Agnostic**, the neutral community. Open `/faith browse` to find a faith, or create one yourself. Each faith chooses its own teachings; the server sets the limits.
-
-This wiki describes the **0.1 preview** for **Paper 26.2 / Java 25**. Menu names and defaults refer to the documented build; your server’s customs may differ.
+**0.1 preview · Paper 26.2 · Java 25.** Menu names and defaults match the documented build; your server's settings may differ.
 { .release-note }

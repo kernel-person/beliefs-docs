@@ -1,6 +1,6 @@
 # Choose a symbol and write scripture
 
-**Start here:** `/faith settings → Identity`. The founder edits these settings. Moving between categories keeps a draft; **Save** applies your changes together.
+As founder, open `/faith settings` → **Identity**. Category changes stay in a draft until **Save**, which applies them together.
 
 ## Choose a symbol
 
@@ -9,15 +9,15 @@
 3. Check the selected preview and the green checkbox after its name.
 4. Choose **Save**.
 
-The bundled [catalogue](../reference/symbols.md) has 22 heads, alongside item symbols. Your server may add its own. A symbol is artwork: choosing it does not set food rules, teachings or ceremonies.
+The [catalogue](../reference/symbols.md) includes 22 heads and item symbols; your server may add more. Choosing a symbol does not set food rules, teachings or ceremonies.
 
 <!-- Screenshot: Three-column symbol gallery with a selected symbol, navigation row and Save. -->
 
 ??? tip "Use a custom head or held item"
 
-    The item you hold in your main hand is available as an item-symbol choice. Choosing an item clears the active head texture in your draft.
+    Your main-hand item appears as an item-symbol choice. Choosing it clears the draft's head texture.
 
-    For another head, choose **Custom head**, paste its `textures.minecraft.net` skin URL or texture value, and select **Use head**. You still need **Save**. **Back** keeps the typed text for later but does not apply it.
+    For another head, choose **Custom head**, paste its `textures.minecraft.net` skin URL or texture value, then **Use head** and **Save**. **Back** keeps the typed text without applying it.
 
 ## Write scripture
 
@@ -26,15 +26,15 @@ The bundled [catalogue](../reference/symbols.md) has 22 heads, alongside item sy
 3. Write your stories, principles or teachings in **Sacred text: stories and teachings**.
 4. Choose **Save**.
 
-Members read this through **/faith → Scripture**. Scripture explains the faith in your own words; use [Teachings and food rules](teachings-and-food.md) to change gameplay rewards or restrictions.
+Members read your text through **/faith → Scripture**. Gameplay rewards and restrictions belong in [Teachings and food rules](teachings-and-food.md).
 
-The book title allows 80 characters; scripture allows multiple lines and up to 6,000 characters. A blank title uses the faith's name followed by “teachings”. Changing the title affects newly collected books, not books already in inventories.
+Book titles allow 80 characters; scripture allows multiple lines and 6,000 characters. A blank title uses the faith's name followed by “teachings”. Title changes apply only to newly collected books.
 
 ## Let members collect the sacred book
 
 Members choose **/faith → Scripture → Get sacred item**. The book uses your saved title and faith symbol. Right-clicking it opens its faith; using it on another player opens that person's information.
 
-The default collection cooldown is 60 seconds, shared across faiths and retained after reconnects and restarts. A full inventory grants no item and consumes no cooldown.
+Collection has a 60-second default cooldown across all faiths, including after reconnects and restarts. A full inventory gives no book and uses no cooldown.
 
 ??? note "For server owners: catalogue updates"
 

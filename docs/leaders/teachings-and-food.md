@@ -1,26 +1,24 @@
 # Set teachings and food rules
 
-**Start here:** `/faith settings`. Only the founder edits these rules. Members read them through `/faith`.
-
-Teachings set the reward or penalty for a deed. Food rules decide what followers may eat.
+As founder, open `/faith settings`. Teachings score deeds; food rules decide what followers may eat. Members read both through `/faith`.
 
 ## Add a teaching
 
 1. Choose **Teachings → Add teaching**.
 2. Pick the action you want to judge, such as prayer, eating or killing.
-3. Choose a target if needed. For example, select a creature, a particular food or one of your ceremonies. The general option covers any matching event.
+3. Choose a target, such as a creature, food or ceremony, or use the general option for any matching event.
 4. Move the **Standing** slider left for a penalty or right for a reward. Write a short explanation in **Why this deed matters**.
 5. Choose **Save**.
 
-For example, a prayer teaching with **+1** rewards each matching completed prayer. New deeds use the saved rule; past deeds keep their original scores.
+A +1 prayer teaching rewards each matching completed prayer. Changes affect new deeds; past deeds keep their scores.
 
 <!-- Screenshot: New teaching editor with a selected target, Standing slider and Save visible. -->
 
 ## Change or remove a teaching
 
-Open **Teachings** and select the existing entry. Adjust its standing change or explanation, then **Save**. Its action and target stay fixed; create a different teaching if you need a different target. **Remove** asks for confirmation.
+Select an entry under **Teachings**, edit its score or explanation, then **Save**. Its action and target are fixed; changing either needs a new teaching. **Remove** asks for confirmation.
 
-**Change action** is available while creating a teaching. It keeps your explanation and points but clears an incompatible target. To abandon the edit, use **Back** without saving.
+While creating a teaching, **Change action** keeps your explanation and points but clears incompatible targets. **Back** without saving abandons the edit.
 
 ## Set food rules
 
@@ -29,20 +27,20 @@ Open **Teachings** and select the existing entry. Adjust its standing change or 
 3. Use **Foods** for individual food bans, or **Ingredients** for ingredient bans. Search to narrow the item grid.
 4. Open **Rules** to review what is active and remove anything you no longer want.
 
-**These food-grid changes apply immediately.** There is no final Save button. The food grid inside [Create a faith](create-faith.md) is different: its choices remain a draft until you create the faith.
+**Food-grid changes apply immediately**, without a final Save. In the [creation guide](create-faith.md), they stay in a draft until you create the faith.
 
-Click the name tag to rename the dietary rules, then **Save**. This only changes the name; calling them “Vegetarianism” does not enable the vegetarian preset.
+Click the name tag and **Save** to rename the rules. A name such as “Vegetarianism” does not enable a preset.
 
 <!-- Screenshot: Food rules, Diets tab, showing selected presets and the Foods/Ingredients/Rules tabs. -->
 
 ??? tip "A food stays forbidden after removing its ban"
 
-    Rules combine. Another ingredient ban or dietary requirement may still forbid it. Hover over the food to see the reason. Heirloom dishes can depend on their actual ingredients. Missing information alone causes no food-rule penalty; check whether the item is marked **Unknown**.
+    Hover over the food to check for another ingredient ban or dietary rule. Heirloom dishes can depend on their actual ingredients. Incomplete details may show **Unknown**. Uncertainty alone causes no penalty.
 
 ??? note "Scoring and starter choices"
 
-    The creation guide adds only the ceremonies and food rules you choose. Prayer results add a +1 prayer teaching; worship-service results add +5 for services. Selecting food restrictions adds a −5 food-violation teaching, subject to server limits. There is no automatic player-killing penalty in this guided flow.
+    The creation guide uses your choices: prayer results add +1 prayer teachings, worship services add +5 service teachings, and food restrictions add a −5 violation teaching. Server limits apply. No player-killing penalty is added automatically.
 
-    Food restrictions and their violation score are separate. Review **Teachings** if you want to change the penalty. The default teaching range is −20 to +20; only negative teachings can be marked **Serious transgression**. A specific target takes priority over the general teaching for the same action.
+    Change food-violation penalties under **Teachings**, separately from the restrictions. The default score range is −20 to +20. Only negative teachings can be **Serious transgression**; specific targets take priority over general teachings for the same action.
 
 For the member's view, see [Check food rules](../players/food.md).

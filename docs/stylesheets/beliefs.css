@@ -37,25 +37,31 @@ body { background: var(--beliefs-bg); }
 .md-typeset .md-button { border-radius: 5px; border: 1px solid var(--beliefs-border); font-size: .78rem; padding: .65em 1.2em; margin: .15em .3em .15em 0; font-weight: 500; color: var(--beliefs-text); }
 .md-typeset .md-button--primary { background: var(--beliefs-brass); border-color: var(--beliefs-brass); color: #211b12; }
 .md-typeset .md-button:hover { background: var(--beliefs-gold); border-color: var(--beliefs-gold); color: #211b12; }
-.beliefs-hero { padding: 1.6rem 1.8rem; margin-bottom: 1.7rem; border: 1px solid var(--beliefs-border); border-radius: 10px; background: radial-gradient(ellipse at 90% 0, #73532735, transparent 65%), linear-gradient(135deg, #30271d, #211e19); }
-.beliefs-hero h1 { font-size: clamp(1.75rem, 3.8vw, 2.65rem); line-height: 1.16; max-width: 16em; margin: .65rem 0 .8rem; }
-.beliefs-hero > p { color: #d5cfc2; max-width: 34em; }
-.eyebrow { color: var(--beliefs-brass); text-transform: uppercase; letter-spacing: .13em; font-size: .64rem; }
-.symbol-ribbon { display: flex; gap: .65rem; align-items: center; margin-top: 1.55rem; flex-wrap: wrap; }
-.symbol-ribbon img { image-rendering: pixelated; width: 2rem; height: 2rem; background: #191612; padding: .25rem; border: 1px solid var(--beliefs-border); border-radius: 4px; }
-.md-typeset .quiet { color: var(--beliefs-muted); font-size: .72rem; margin: .5rem 0 0; }
-.guide-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; }
-.guide-card { padding: 1rem 1.1rem; border: 1px solid var(--beliefs-border); border-radius: 7px; background: var(--beliefs-panel); }
-.md-typeset .guide-card h3 { margin: 0 0 .35rem; color: var(--beliefs-brass); }
-.md-typeset .guide-card p { margin: .3rem 0 .6rem; color: var(--beliefs-muted); }
-.md-typeset .guide-card ul { padding-left: 1em; margin-bottom: 0; }
-.md-typeset .guide-card li { margin-bottom: .25em; }
+/* Keep the guide links near the top without a second set of navigation cards. */
+.beliefs-intro { padding: .4rem 0 1.1rem; }
+.md-typeset .beliefs-intro h1 { margin: 0 0 .55rem; font-size: clamp(1.8rem, 3.5vw, 2.5rem); }
+.beliefs-intro > p { max-width: 36em; color: var(--beliefs-muted); }
+.symbol-ribbon { display: flex; gap: .65rem; align-items: center; margin-top: 1rem; flex-wrap: wrap; }
+.symbol-ribbon img { image-rendering: pixelated; width: 1.7rem; height: 1.7rem; }
+.guide-index { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.6rem; margin: .6rem 0 1.5rem; }
+.guide-index section { border-top: 1px solid var(--beliefs-border); padding-top: .75rem; min-width: 0; }
+.md-typeset .guide-index h2 { margin: 0 0 .65rem; font-size: 1rem; }
+.md-typeset .guide-index ul { list-style: none; margin: 0; padding: 0; }
+.md-typeset .guide-index li { margin: 0; padding: 0; }
+.guide-index a { display: block; padding: .35rem 0; color: var(--beliefs-text); text-decoration: none; }
+.guide-index a:hover { color: var(--beliefs-gold); text-decoration: underline; }
+.guide-index a:focus-visible { outline: 2px solid var(--beliefs-gold); outline-offset: 3px; border-radius: 2px; }
+.md-content__inner { width: calc(100% - 2.4rem); max-width: 72ch; margin-inline: auto; }
+.md-content__inner:has(.beliefs-intro) { max-width: none; }
+.md-typeset h1 { margin-bottom: .8em; }
+.md-typeset strong { font-weight: 600; }
+.md-typeset ol > li { padding-left: .15em; margin-bottom: .6em; }
 .release-note { border-top: 1px solid var(--beliefs-border); padding-top: .8rem; color: var(--beliefs-muted); font-size: .72rem; }
-.md-typeset .admonition, .md-typeset details { border-color: #95805b; background: #2b251d; box-shadow: none; }
-.md-typeset .admonition-title, .md-typeset summary { background: #73592d26; }
+.md-typeset .admonition, .md-typeset details { border-color: #95805b; background: transparent; box-shadow: none; }
+.md-typeset .admonition-title, .md-typeset summary { background: #73592d12; }
 .md-typeset .admonition-title:before, .md-typeset summary:before { background-color: var(--beliefs-brass); }
-.md-typeset details.tip, .md-typeset details.note, .md-typeset details.warning, .md-typeset details.info { border-color: #95805b; background: #2b251d; }
-.md-typeset details.tip > summary, .md-typeset details.note > summary, .md-typeset details.warning > summary, .md-typeset details.info > summary { background: #73592d26; }
+.md-typeset details.tip, .md-typeset details.note, .md-typeset details.warning, .md-typeset details.info { border-color: var(--beliefs-border); background: transparent; }
+.md-typeset details.tip > summary, .md-typeset details.note > summary, .md-typeset details.warning > summary, .md-typeset details.info > summary { background: #73592d12; }
 .md-typeset details.tip > summary::before, .md-typeset details.note > summary::before, .md-typeset details.warning > summary::before,
 .md-typeset details.tip > summary::after, .md-typeset details.note > summary::after, .md-typeset details.warning > summary::after,
 .md-typeset details.info > summary::before, .md-typeset details.info > summary::after { background-color: var(--beliefs-brass); }
@@ -70,9 +76,10 @@ body { background: var(--beliefs-bg); }
 .symbol-card code { display: block; overflow-wrap: anywhere; margin-top: .3rem; font-size: .58rem; color: var(--beliefs-muted); }
 .md-typeset .recipe-figure { display: block; width: 528px; max-width: 100%; image-rendering: pixelated; }
 @media (max-width: 600px) {
-  .beliefs-hero { padding: 1.1rem; }
-  .guide-grid { grid-template-columns: 1fr; }
+  .beliefs-intro { padding-top: 0; }
+  .guide-index { grid-template-columns: 1fr; gap: 1rem; }
   .md-typeset { font-size: .8rem; }
+  .md-content__inner { width: auto; margin-inline: .8rem; }
   .symbol-ribbon { gap: .4rem; }
   .md-typeset table:not([class]) { font-size: .68rem; }
 }
